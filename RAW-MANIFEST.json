@@ -1,0 +1,780 @@
+{
+  "payloadFiles": 155,
+  "files": [
+    {
+      "path": "VALIDATION.md",
+      "bytes": 4514,
+      "sha256": "864a1de1f7055e4fae9ef7369b490cbf7dfa457211f9a8d218cfdf6cd98bf60a"
+    },
+    {
+      "path": "baseline-package/yup-1.7.1.tgz",
+      "bytes": 151133,
+      "sha256": "d8ef32240d54301bfc2b4727fceeb9d54e394e76dc4456b75d87060902b34b7f"
+    },
+    {
+      "path": "candidate-package/yup-1.7.1.tgz",
+      "bytes": 153878,
+      "sha256": "ce8316b1da77aa50d97f552c13a85da46f4991ca18fe92e82e13fe4a7f4c231a"
+    },
+    {
+      "path": "independent-review/yup2007-boundary-review-final.cjs",
+      "bytes": 7054,
+      "sha256": "88811ed79dc59a075c335fe73632cd712702684f8fd7f86a3fb02f6ade343229"
+    },
+    {
+      "path": "independent-review/yup2007-code-review.json",
+      "bytes": 5853,
+      "sha256": "9b63a9bf83bd90a00b035a1e96af4e7cccf0411263691116f233528251e243fe"
+    },
+    {
+      "path": "independent-review/yup2007-package-gate-review-final.json",
+      "bytes": 5501,
+      "sha256": "bcd6ded0a3c1d795fcac7732c88013f7ba23f392052a91f04de8b081bc7dc10c"
+    },
+    {
+      "path": "independent-review/yup2007-package-gate-review.json",
+      "bytes": 13020,
+      "sha256": "b936f6dd2f8e772e78fe125ce97bd6e2fc6130f1ab9fe436fcc083e051dd29bb"
+    },
+    {
+      "path": "independent-review/yup2007-review-final-baseline.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "independent-review/yup2007-review-final-baseline.stdout.raw",
+      "bytes": 5941,
+      "sha256": "368afbf3bd0c3522242680c90d65f7443c70184efdc7096889c9f2a6716e3fc1"
+    },
+    {
+      "path": "independent-review/yup2007-review-final-candidate.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "independent-review/yup2007-review-final-candidate.stdout.raw",
+      "bytes": 5604,
+      "sha256": "23ccf534d5ed24093aa751f302e90b88bd98989761a0826906d011139f6940bb"
+    },
+    {
+      "path": "independent-review/yup2007-review-final-runtime-receipt.json",
+      "bytes": 1338,
+      "sha256": "fc004433fe8b864c32115a9fdae7148b956f790b60dfbac4d2cb7fe89b35c842"
+    },
+    {
+      "path": "independent-root/current-node-lts.json",
+      "bytes": 1736,
+      "sha256": "03ebfc6500619c124b28d08de62b59f3fc8629a19836ad831e991a37182e5b54"
+    },
+    {
+      "path": "independent-root/failure-catch-final.json",
+      "bytes": 1595,
+      "sha256": "e7ddd9ec6846b7fe37eddfa34077668594664e8999f9ade319f38ceb16dda05f"
+    },
+    {
+      "path": "independent-root/failure-catch-final.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "independent-root/failure-catch-final.stdout.raw",
+      "bytes": 655,
+      "sha256": "13d1916d543666d14e83cd182661c6901de0f3eafbafbcd48c5806cdb04817be"
+    },
+    {
+      "path": "independent-root/failure-catch-initial.cjs",
+      "bytes": 1825,
+      "sha256": "e967966486c2b52a27338081589158ff8d9a5a1e87866b48279ef81d7a996446"
+    },
+    {
+      "path": "independent-root/failure-catch-initial.json",
+      "bytes": 1100,
+      "sha256": "c2ce77f9203cb0585a6f690e72fe9fa0d371f45bced8ab580756c905090ff963"
+    },
+    {
+      "path": "independent-root/failure-catch-initial.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "independent-root/failure-catch-initial.stdout.raw",
+      "bytes": 913,
+      "sha256": "4087ffd28988d37de6f52adefd61a10104efe81c5abe0386bc582580548b42fa"
+    },
+    {
+      "path": "independent-root/failure-catch.cjs",
+      "bytes": 1831,
+      "sha256": "d04c21a89e811f14206b975f80c21b656e649e3d386a2a4e7b96ad3187d811bb"
+    },
+    {
+      "path": "independent-root/upstream-community-profile.json",
+      "bytes": 821,
+      "sha256": "647dc47e32aee0177c6cc462c552657e2a02904c480706fa376a292b1e438c79"
+    },
+    {
+      "path": "independent-root/upstream-platform-admission.json",
+      "bytes": 5619,
+      "sha256": "3fcf2cd8f025017aea7df52b26fc28359ed8fc03010a36598768d13c58cb65f0"
+    },
+    {
+      "path": "independent-workflow/yup2007-baseline-boundaries-final.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "independent-workflow/yup2007-baseline-boundaries-final.stdout.raw",
+      "bytes": 36735,
+      "sha256": "44823e0099e8b1c73c37a2588647284e61c48dd9598b3c4a51c44f59ee64a35d"
+    },
+    {
+      "path": "independent-workflow/yup2007-errorcache-candidate74.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "independent-workflow/yup2007-errorcache-candidate74.stdout.raw",
+      "bytes": 15353,
+      "sha256": "7f30e3754bfada85c7fc7e201decb0c74930332535b631d056df3e91e7bb55c4"
+    },
+    {
+      "path": "independent-workflow/yup2007-errorcache-final-independent-receipt.json",
+      "bytes": 1827,
+      "sha256": "e923bcb983b28f235abbdcb0984dfd3e9ec3b35f542cdaa9bd2c47cf2aff08fa"
+    },
+    {
+      "path": "independent-workflow/yup2007-errorcache-source-after.json",
+      "bytes": 3155,
+      "sha256": "4aac29bb5ec7fca667ed226d5f2bbe36b07fe15b40948201e5349b39ec02ded3"
+    },
+    {
+      "path": "independent-workflow/yup2007-errorcache-source-before.json",
+      "bytes": 3155,
+      "sha256": "4aac29bb5ec7fca667ed226d5f2bbe36b07fe15b40948201e5349b39ec02ded3"
+    },
+    {
+      "path": "independent-workflow/yup2007-final-independent-receipt.json",
+      "bytes": 3591,
+      "sha256": "de3fe0c2b825053fea553362decbdaee62608bbd88bd9a35b2fdd650526fa1c6"
+    },
+    {
+      "path": "independent-workflow/yup2007-public-boundaries.cjs",
+      "bytes": 14015,
+      "sha256": "ccb0a286a6ed4b65ece766b7c633484767bd15af25a91dbeb37c20d8739e24f2"
+    },
+    {
+      "path": "yup-accepted-baseline-regression.json",
+      "bytes": 205,
+      "sha256": "1ffd6129a5e2bb037455d83701a18747e4a56544baddf8ac3d7334fd4cea8fbb"
+    },
+    {
+      "path": "yup-accepted-baseline-regression.stderr.raw",
+      "bytes": 10014,
+      "sha256": "b5d7e8f8e64a163407b6083952c533f6702afcd611def91cd25b849403824117"
+    },
+    {
+      "path": "yup-accepted-baseline-regression.stdout.raw",
+      "bytes": 7322,
+      "sha256": "11a9b9339b777fb1d125d1fbcd98915e23c32787607db38d56fadb243b8b6090"
+    },
+    {
+      "path": "yup-accepted-build.json",
+      "bytes": 634,
+      "sha256": "109d38e2cfaf6da85a9c78a2857207dea2a34d0db20112447eccc3945ad72de8"
+    },
+    {
+      "path": "yup-accepted-build.stderr.raw",
+      "bytes": 728,
+      "sha256": "29acfd7f5ed759ef84d893cb1adf958cd724a393bd74ffdc46d6f07ec5b7aecd"
+    },
+    {
+      "path": "yup-accepted-build.stdout.raw",
+      "bytes": 1256,
+      "sha256": "cd2e9a92c465550ec49056921b8a8b7ff7341e6aad491292c117d9a31053f1c2"
+    },
+    {
+      "path": "yup-accepted-format.json",
+      "bytes": 773,
+      "sha256": "23756deaf76fe8c0f1066751c14253982c121459f9931491b9a4a73a3264a66b"
+    },
+    {
+      "path": "yup-accepted-format.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-accepted-format.stdout.raw",
+      "bytes": 66,
+      "sha256": "17aa973d3f004560237d9a95171210b0671deff23d61628eecf7322ff5938f20"
+    },
+    {
+      "path": "yup-accepted-precommit.json",
+      "bytes": 284,
+      "sha256": "7e6a3e096bb3ca704966013caad42d3a1e4e20d33bfe29b3b614f05125064658"
+    },
+    {
+      "path": "yup-accepted-precommit.stderr.raw",
+      "bytes": 171,
+      "sha256": "7ca57b1959a752583e26d682b8e8d264e96f79737725bd0a19922581754bd347"
+    },
+    {
+      "path": "yup-accepted-precommit.stdout.raw",
+      "bytes": 47,
+      "sha256": "279e46090ad8241eedf89f8c762170554d76f9e8d75b414d9e86f5ed0d0208bf"
+    },
+    {
+      "path": "yup-accepted-test.json",
+      "bytes": 633,
+      "sha256": "33f55767a78ac46fa0487160fb2400c1d144ccd15242aa2cae589c139cc41df3"
+    },
+    {
+      "path": "yup-accepted-test.stderr.raw",
+      "bytes": 360,
+      "sha256": "0e8e1e2e10bed86b6524919bcea993ac11a3f506feb30e2c357927af3cf26d9b"
+    },
+    {
+      "path": "yup-accepted-test.stdout.raw",
+      "bytes": 1638,
+      "sha256": "0dc5f56eacf77a146ee934f89b99532a7d6c75c1d2d84a30928a4936cc307461"
+    },
+    {
+      "path": "yup-accepted-tsc.json",
+      "bytes": 671,
+      "sha256": "6713bad76751c6c69b9505ee35e03a289b585cb8047d48533afbbbae46d8285d"
+    },
+    {
+      "path": "yup-accepted-tsc.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-accepted-tsc.stdout.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-accepted-types.json",
+      "bytes": 674,
+      "sha256": "a09c70fbe709693fe88e36059f421609aa309b226f1c60b8d691d6c2455e35b5"
+    },
+    {
+      "path": "yup-accepted-types.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-accepted-types.stdout.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-accepted-windows-checks.json",
+      "bytes": 4608,
+      "sha256": "843da26512f6343091974f502d760699eb70bbcf8cbb830479ba0534fa9ee2d7"
+    },
+    {
+      "path": "yup-baseline-canonical-manifest.json",
+      "bytes": 15304,
+      "sha256": "8ba2e2d744c77158a6dfe00898f92c5fcbee273febb6a8f02ca12a46698ebe10"
+    },
+    {
+      "path": "yup-baseline-canonical.tar",
+      "bytes": 1085440,
+      "sha256": "4a6ea90fc69014f84d1057ea8928bebb3ccc8f3365e989f8378de12f9b4d800b"
+    },
+    {
+      "path": "yup-baseline-consumer-install.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-baseline-consumer-install.stdout.raw",
+      "bytes": 24,
+      "sha256": "4cdf92bf5bf64f07095ea7ba0a74d7dabc8a1cbb2af0217340341654cd193187"
+    },
+    {
+      "path": "yup-baseline-installed-runtime.json",
+      "bytes": 32569,
+      "sha256": "5951f5c31fa56a0362edf93042963e9b44eece0f089aa3b1015eb20b93e28025"
+    },
+    {
+      "path": "yup-baseline-installed-runtime.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-baseline-stage-pack.json",
+      "bytes": 320,
+      "sha256": "3c32388f6a2b52f0a8c28517a2e6c21922a035c0bf3c1891c3415f10172ab5f7"
+    },
+    {
+      "path": "yup-baseline-stage-pack.stderr.raw",
+      "bytes": 166,
+      "sha256": "b57caa295919b31f9ae5073e204bb579f2407a75888d109e94a9c5cc64fe39fb"
+    },
+    {
+      "path": "yup-baseline-stage-pack.stdout.raw",
+      "bytes": 7562,
+      "sha256": "c0ca0f5f8b5ef9955ea320b4f236f3f894eec30e693a1a7b541ead5050cf4c84"
+    },
+    {
+      "path": "yup-build-generated-readme.diff.raw",
+      "bytes": 440,
+      "sha256": "b920324f2b8166c975cc04ea4c139713bdf04d3a66a8dac0035cfaeb40c711dc"
+    },
+    {
+      "path": "yup-candidate-canonical-manifest.json",
+      "bytes": 23771,
+      "sha256": "d6934ccc92a27619f01adcf32bc71589cbaa0adeb6234038d36140936e656f42"
+    },
+    {
+      "path": "yup-candidate-canonical.tar",
+      "bytes": 1095680,
+      "sha256": "32d1c0822feef3bb43a3c1acd9a0b7372ad9134d1d42737e73ed16ace654d368"
+    },
+    {
+      "path": "yup-candidate-consumer-install.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-candidate-consumer-install.stdout.raw",
+      "bytes": 27,
+      "sha256": "c210cdc12472a10247112f20d8dd9a2942bcc253bc9a12aefb9ef5babcdb0549"
+    },
+    {
+      "path": "yup-candidate-installed-runtime.json",
+      "bytes": 32381,
+      "sha256": "c2b179cce05ae28dedded480f9aca9a47684539f657f60a22d2bb33eff9141df"
+    },
+    {
+      "path": "yup-candidate-installed-runtime.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-candidate-stage-pack.json",
+      "bytes": 322,
+      "sha256": "8e604fa3695fc4603109e53d125ec8153ce4effe0f3b39fd2d2b1f1b20bf480b"
+    },
+    {
+      "path": "yup-candidate-stage-pack.stderr.raw",
+      "bytes": 166,
+      "sha256": "b57caa295919b31f9ae5073e204bb579f2407a75888d109e94a9c5cc64fe39fb"
+    },
+    {
+      "path": "yup-candidate-stage-pack.stdout.raw",
+      "bytes": 7773,
+      "sha256": "98bf0fa138dcfcb760d8e7e98ad26f8b681b8ee36776533d3d2b988e57be9ad7"
+    },
+    {
+      "path": "yup-cross-platform-package-receipt.json",
+      "bytes": 2480,
+      "sha256": "55eafa0a5208e7e106df2f42160315e2aad3db00d4bdb9542715931c68cc7e6c"
+    },
+    {
+      "path": "yup-installed-consumers-receipt.json",
+      "bytes": 33161,
+      "sha256": "0f3c196c944760be7e32aef41edea47aeeca2d64a3768673642b982d62483f88"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-build.json",
+      "bytes": 35,
+      "sha256": "aa3a5a53d76b9f71f5c342130dcaa2c580043d57a0393208b976962d3d90ba40"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-build.stderr.raw",
+      "bytes": 842,
+      "sha256": "de71c0b21e580c0c5650a2bc26dcd281a8109d2328de45ce91d84506e3a9fea7"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-build.stdout.raw",
+      "bytes": 1024,
+      "sha256": "f3ad2715ca7c3e5e4a60dee20f7179a1ed64931811d637afc398e827c77b244e"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-consumer-install.json",
+      "bytes": 34,
+      "sha256": "a03092b480fc0cf0ef00c83832c5f1f0ccd69b84ab573a42d5caf89e273ad6e3"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-consumer-install.stderr.raw",
+      "bytes": 209,
+      "sha256": "66b052a3fb08c0a91f1da0c77bc87888b8271466430e294241b2b89e8fa91dd4"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-consumer-install.stdout.raw",
+      "bytes": 24,
+      "sha256": "c276419b8da1d51dcbd7019a01c8e0d660b4450b521251121c9eca6ff607736c"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-consumer.json",
+      "bytes": 34,
+      "sha256": "13a5d7138fdfc40b38638ad70992e6cf02136bf5d522e3afd093ca45c9154cae"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-consumer.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-consumer.stdout.raw",
+      "bytes": 32529,
+      "sha256": "248c43856bf33550023d0bd607a0ddf415a6a26fc79b15dcdba3cde4d60504ab"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-install.json",
+      "bytes": 35,
+      "sha256": "82a9f7cc917699d846dd99cb2b5cfcf09925eced908d81d450c2766fbcfcfae1"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-install.stderr.raw",
+      "bytes": 97,
+      "sha256": "a5c0d842b67e791440c2694f84ad33a87b4750905595ce992ce9a0ee62d1f963"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-install.stdout.raw",
+      "bytes": 781,
+      "sha256": "ffb5a9a79cfff486596d9844db4432e4f007ca3334ec490c75f601be8a09cb63"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-node.json",
+      "bytes": 34,
+      "sha256": "13a5d7138fdfc40b38638ad70992e6cf02136bf5d522e3afd093ca45c9154cae"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-node.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-node.stdout.raw",
+      "bytes": 9,
+      "sha256": "249baf635bb43877fcb9422efa1a4904b702d0ddf14d3949b7cd0950d5229c81"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-readme-after.raw",
+      "bytes": 63152,
+      "sha256": "6c924b193e27c5bb7e1ce899620c360d4577cf08c8e4491cb663c8a6954f2ef7"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-readme-before.raw",
+      "bytes": 63152,
+      "sha256": "6c924b193e27c5bb7e1ce899620c360d4577cf08c8e4491cb663c8a6954f2ef7"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-source-after.json",
+      "bytes": 28,
+      "sha256": "382a84695622e379c37f1a05b6ebd7edb5c5358f8f6acb729e85bbe013a6cecd"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-source-before.json",
+      "bytes": 28,
+      "sha256": "382a84695622e379c37f1a05b6ebd7edb5c5358f8f6acb729e85bbe013a6cecd"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-source-types.json",
+      "bytes": 34,
+      "sha256": "a03092b480fc0cf0ef00c83832c5f1f0ccd69b84ab573a42d5caf89e273ad6e3"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-source-types.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-source-types.stdout.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-test-types.json",
+      "bytes": 34,
+      "sha256": "a03092b480fc0cf0ef00c83832c5f1f0ccd69b84ab573a42d5caf89e273ad6e3"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-test-types.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-test-types.stdout.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-test.json",
+      "bytes": 35,
+      "sha256": "cfde24dc12be64f6eb825bd1ba939685dfef92a25b3b22e655f201be9d01bc2c"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-test.stderr.raw",
+      "bytes": 360,
+      "sha256": "0e8e1e2e10bed86b6524919bcea993ac11a3f506feb30e2c357927af3cf26d9b"
+    },
+    {
+      "path": "yup-linux-accepted-baseline-test.stdout.raw",
+      "bytes": 1504,
+      "sha256": "27661532221a23c5180db64ecca1c4e0ee628283cb9ae8874009e479d9ccc1b1"
+    },
+    {
+      "path": "yup-linux-accepted-binaries.sha256",
+      "bytes": 176,
+      "sha256": "f61abfdea633902f6176cd233a72fd7d0f1661cb03a00686fe86e9fb07e73360"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-build.json",
+      "bytes": 34,
+      "sha256": "7714c07a528156a61119e7a5a590dd31db8fd4123f31ae5ec275b24995587707"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-build.stderr.raw",
+      "bytes": 840,
+      "sha256": "b142fe6292c9822269fd652be70a530cec4f83f9744f098bcdf93c7a76240c2f"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-build.stdout.raw",
+      "bytes": 1024,
+      "sha256": "fb2d6eaf08a5f6f0db6be5103ac09e46e525c41aa742468d01e4e1cb4ccd2398"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-consumer-install.json",
+      "bytes": 34,
+      "sha256": "13a5d7138fdfc40b38638ad70992e6cf02136bf5d522e3afd093ca45c9154cae"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-consumer-install.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-consumer-install.stdout.raw",
+      "bytes": 27,
+      "sha256": "b74048a8f7fdeec79f58d31be67cc13b10e92636988dee04aea07c071dc58cc0"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-consumer.json",
+      "bytes": 34,
+      "sha256": "13a5d7138fdfc40b38638ad70992e6cf02136bf5d522e3afd093ca45c9154cae"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-consumer.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-consumer.stdout.raw",
+      "bytes": 32341,
+      "sha256": "be124f1458c6176482d54a5ea15e67a24fa13f1aecd81b0fe1ea06a4b9d84aa0"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-format.json",
+      "bytes": 34,
+      "sha256": "5cf9cccecaacba0092b3c28d438f66aee536dca102f3cc1260d2ea6d0c67c20d"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-format.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-format.stdout.raw",
+      "bytes": 66,
+      "sha256": "17aa973d3f004560237d9a95171210b0671deff23d61628eecf7322ff5938f20"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-install.json",
+      "bytes": 34,
+      "sha256": "7714c07a528156a61119e7a5a590dd31db8fd4123f31ae5ec275b24995587707"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-install.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-install.stdout.raw",
+      "bytes": 768,
+      "sha256": "56545a07993511324f64af1450b0368be769da3c77676afdbb2d6ccbe9f0dc29"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-node.json",
+      "bytes": 34,
+      "sha256": "13a5d7138fdfc40b38638ad70992e6cf02136bf5d522e3afd093ca45c9154cae"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-node.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-node.stdout.raw",
+      "bytes": 9,
+      "sha256": "249baf635bb43877fcb9422efa1a4904b702d0ddf14d3949b7cd0950d5229c81"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-readme-after.raw",
+      "bytes": 63152,
+      "sha256": "6c924b193e27c5bb7e1ce899620c360d4577cf08c8e4491cb663c8a6954f2ef7"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-readme-before.raw",
+      "bytes": 63152,
+      "sha256": "6c924b193e27c5bb7e1ce899620c360d4577cf08c8e4491cb663c8a6954f2ef7"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-source-after.json",
+      "bytes": 28,
+      "sha256": "dd243cf0db7d8090c96b5466f245e817faff96b3fc042f17e9bc30cabd4051c1"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-source-before.json",
+      "bytes": 28,
+      "sha256": "dd243cf0db7d8090c96b5466f245e817faff96b3fc042f17e9bc30cabd4051c1"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-source-types.json",
+      "bytes": 34,
+      "sha256": "a03092b480fc0cf0ef00c83832c5f1f0ccd69b84ab573a42d5caf89e273ad6e3"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-source-types.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-source-types.stdout.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-test-types.json",
+      "bytes": 34,
+      "sha256": "05db67296eeb89868e49a2cb98f0c897b499cdaa94b9dd92c5d87bbd6e02843d"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-test-types.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-test-types.stdout.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-test.json",
+      "bytes": 34,
+      "sha256": "309a95fb5d2f4e1973d87ec119d95b75acbf6fc3af009c45110e0d8f984976c7"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-test.stderr.raw",
+      "bytes": 360,
+      "sha256": "0e8e1e2e10bed86b6524919bcea993ac11a3f506feb30e2c357927af3cf26d9b"
+    },
+    {
+      "path": "yup-linux-accepted-candidate-test.stdout.raw",
+      "bytes": 1619,
+      "sha256": "e3ce4c007f1b2023ae0616444ae10bc441b1ed8a3e8feaa0f2cea213e4b300cf"
+    },
+    {
+      "path": "yup-linux-accepted-checks.sh",
+      "bytes": 2939,
+      "sha256": "48a52505ba9fe2b57d706292f37f113a10275e8fc3af3cb4eda185d973bcfcec"
+    },
+    {
+      "path": "yup-linux-accepted-corepack.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-linux-accepted-corepack.stdout.raw",
+      "bytes": 25,
+      "sha256": "8c497ac8067e1724cccec8dab491af614c94afe7ef160dbbc14f9479387b4b7a"
+    },
+    {
+      "path": "yup-linux-accepted-esbuild-version.raw",
+      "bytes": 8,
+      "sha256": "86fe8433d19394d1ea35c01f5403251eb571dd63598ee4ed32d0cc141e12ab57"
+    },
+    {
+      "path": "yup-linux-accepted-node-execpath.raw",
+      "bytes": 20,
+      "sha256": "b5416e54547af07f27c4c45feabcd9fee16b402f6211e550a56bd4f1efd0d143"
+    },
+    {
+      "path": "yup-linux-accepted-node-version.raw",
+      "bytes": 9,
+      "sha256": "249baf635bb43877fcb9422efa1a4904b702d0ddf14d3949b7cd0950d5229c81"
+    },
+    {
+      "path": "yup-linux-accepted-work-mount.raw",
+      "bytes": 61,
+      "sha256": "c4a85923e2a5f8a36df24ab6315a5f3a3a00b1ac615a3ebb2932a634ede8f36e"
+    },
+    {
+      "path": "yup-linux-baseline-noexec-install.json",
+      "bytes": 15,
+      "sha256": "ca4b50a6aabd8c09a9998c501233e663a1a779dee115f77beed1cc4e481ab5c3"
+    },
+    {
+      "path": "yup-linux-baseline-noexec-install.stderr.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yup-linux-baseline-noexec-install.stdout.raw",
+      "bytes": 902,
+      "sha256": "6ff8cd81790f5c9eacded9fe7a5867f603569b2a34dde5c84f361d24439ffef2"
+    },
+    {
+      "path": "yup-linux-built-lib-sha256.json",
+      "bytes": 559,
+      "sha256": "9a8d433da97ed4f0f8903834d6bf5c1d289767e18483598860384c73e4ab9b2b"
+    },
+    {
+      "path": "yup-linux-built-lib.tar",
+      "bytes": 419840,
+      "sha256": "ad53afd05d9ce2e39a9ceb5342704dbc3344609f032a50682357a44958079735"
+    },
+    {
+      "path": "yup-linux-esbuild-noexec-build.log.raw",
+      "bytes": 3134,
+      "sha256": "52f19735d4beb42ed53e0feb4cdee8dadd528fc27243098ce3490159d5de18cf"
+    },
+    {
+      "path": "yup-noexec-esbuild-sha256.raw",
+      "bytes": 120,
+      "sha256": "4618eaca4c88ed92b7b137bec9447f1d402115ed82269080f2cf4c496aacf473"
+    },
+    {
+      "path": "yup-noexec-mount.raw",
+      "bytes": 68,
+      "sha256": "ef636003f4e5b2861f98a6109699673afa6a5c8180685c806dc1db0032cd94d3"
+    },
+    {
+      "path": "yup-owned-containers-stop.json",
+      "bytes": 1984,
+      "sha256": "4fdeceb3481fd8325545b5e0a9d0bd6f2b339b31cef1095e3bc9e43521df67f0"
+    },
+    {
+      "path": "yup-source-commit-receipt.json",
+      "bytes": 476,
+      "sha256": "3253ede944c2d7a0983db1b302aa7d244587a9c00f1e4bd89b766d09b3d5c992"
+    },
+    {
+      "path": "yup2007-installed-consumer.cjs",
+      "bytes": 1382,
+      "sha256": "72f3fc8d06529455bb92d04ccd5f28359244ccda2822ada2d175f6a9eebebc36"
+    },
+    {
+      "path": "yup2007-runtime.cjs",
+      "bytes": 1845,
+      "sha256": "1424b273f73d036fe3b2350afe0e060ab9bcfe923136b68505365d026917b783"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    }
+  ]
+}

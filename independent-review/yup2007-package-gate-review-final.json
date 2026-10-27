@@ -1,0 +1,111 @@
+{
+  "atUtc": "2026-10-27T12:30:36.872146+00:00",
+  "finalStatus": "COMPLETE_ACCEPTED_PACKAGE_AND_LOCAL_GATE_PROVENANCE_NO_BLOCKING_FINDINGS",
+  "supersedes": {
+    "file": "yup2007-package-gate-review.json",
+    "fields": [
+      "conclusion: additional Linux LTS completion not observed",
+      "gateProvenance.LinuxLTS.status: PENDING_NOT_CLAIMED"
+    ],
+    "explanation": "Those were historical snapshot statements and are closed by the full accepted official-Docker Node24.22.1 run. No additional LTS matrix or mandatory local gate remains pending. Preserve the old receipt unmodified; use this final addendum for current status."
+  },
+  "acceptedMaterial": {
+    "receipt": "YUP2007-REVIEW-RECEIPT.json",
+    "receiptSha256": "5c2b4f5cbd1b14a4e35e89e1d61c46a0b629cb879c54e5de337dac992777eaa7",
+    "validation": "VALIDATION.md",
+    "validationSha256": "864a1de1f7055e4fae9ef7369b490cbf7dfa457211f9a8d218cfdf6cd98bf60a",
+    "candidateTree": "47dd7c257d8c66b7ea145b0a4106b78f38774843",
+    "canonicalFiles": 76,
+    "candidateTreeModesAndBlobsMatchCanonicalManifest": true,
+    "latestFourSourceRawHashes": {
+      "src/Condition.ts": "a4fa35ed1720306effca9b0fbbf50112dfc8fe95ff3cc76f9e0db11ce49da657",
+      "src/object.ts": "9c595d4522b73be6e807312b33bc9aa3be92aa93955c8dba3245949cf2d5aa92",
+      "src/util/siblingResolvers.ts": "06ad2fbfcd3d9c11d6f22e4d8d759ed696a29f84569bd8c19b563c31d1f75155",
+      "test/object-conditional.ts": "8b0bbb6679cadc2fce86d847fba9c1de508ee182e55d3b1231580e17f8d3ffa0"
+    }
+  },
+  "acceptedLinux": {
+    "node": "v24.22.1",
+    "actualVersionLogs": [
+      "yup-linux-accepted-baseline-node.stdout.raw",
+      "yup-linux-accepted-candidate-node.stdout.raw"
+    ],
+    "officialImage": "node:24.22.1-bookworm",
+    "containerId": "f70b331a5dd3c133a0a98b0235c5f5612a080e06e360094ff84ca56d71256012",
+    "execTmpfs": "rw,exec,size=3g",
+    "OOMKilled": false,
+    "normalNodeUser": "Completed run documented as ordinary node user in supplied final validation; root independently checked runner identity. Container default Config.User is not used to infer docker-exec user.",
+    "baselineSuite": {
+      "pass": 867,
+      "existingSkip": 2
+    },
+    "candidateSuite": {
+      "pass": 923,
+      "existingSkip": 2
+    },
+    "completed": [
+      "normal frozen installs",
+      "ESLint/runtime tests both Vitest projects",
+      "source TypeScript",
+      "test TypeScript",
+      "normal build",
+      "changed-file Prettier candidate",
+      "both installed same-Windows-tarball consumers"
+    ],
+    "sourceCanonicalBeforeAfter": "74 baseline /76 candidate exact",
+    "checkedFiles": [
+      "yup-linux-accepted-baseline-source-before.json",
+      "yup-linux-accepted-baseline-source-after.json",
+      "yup-linux-accepted-baseline-install.json",
+      "yup-linux-accepted-baseline-node.json",
+      "yup-linux-accepted-baseline-test.json",
+      "yup-linux-accepted-baseline-test.stdout.raw",
+      "yup-linux-accepted-baseline-source-types.json",
+      "yup-linux-accepted-baseline-test-types.json",
+      "yup-linux-accepted-baseline-build.json",
+      "yup-linux-accepted-baseline-consumer-install.json",
+      "yup-linux-accepted-baseline-consumer.json",
+      "yup-linux-accepted-baseline-consumer.stdout.raw",
+      "yup-linux-accepted-candidate-source-before.json",
+      "yup-linux-accepted-candidate-source-after.json",
+      "yup-linux-accepted-candidate-install.json",
+      "yup-linux-accepted-candidate-node.json",
+      "yup-linux-accepted-candidate-test.json",
+      "yup-linux-accepted-candidate-test.stdout.raw",
+      "yup-linux-accepted-candidate-source-types.json",
+      "yup-linux-accepted-candidate-test-types.json",
+      "yup-linux-accepted-candidate-build.json",
+      "yup-linux-accepted-candidate-consumer-install.json",
+      "yup-linux-accepted-candidate-consumer.json",
+      "yup-linux-accepted-candidate-consumer.stdout.raw",
+      "yup-linux-accepted-candidate-format.json"
+    ]
+  },
+  "supersededAttempts": [
+    "old yup-linux-lts-runtime-version.raw empty result",
+    "Node26.12.1 extra attempt",
+    "npm-distributed Node24 on noexec tmpfs",
+    "initial Linux esbuild EACCES mount"
+  ],
+  "unchangedPackageConclusion": {
+    "scope": "Normal root npm pack from canonical repository root plus actual rollup-generated lib outputs, installed in independent consumers. This is NOT registry publication or proof of release.publishDir=lib rollout artifact layout.",
+    "baselineTgzSha256": "d8ef32240d54301bfc2b4727fceeb9d54e394e76dc4456b75d87060902b34b7f",
+    "candidateTgzSha256": "ce8316b1da77aa50d97f552c13a85da46f4991ca18fe92e82e13fe4a7f4c231a",
+    "allStageTarInstalledSourceByteBindings": "Retain previous independently checked matching source/stage/tar/installed evidence; source tree and tar hashes unchanged in this addendum.",
+    "registryOrRolloutPublicationClaim": false
+  },
+  "remainingPublicationSteps": [
+    "Root review of full staged diff/body/receipt.",
+    "Public proof allowlist/secret scan and remote blob/mode verification after authorized commit/push.",
+    "No fork/push/PR until root release.",
+    "Postpublication exact HEAD/all-event CI/review/comments/CLA/body readback."
+  ],
+  "reviewActions": {
+    "testReruns": 0,
+    "network": 0,
+    "installs": 0,
+    "sharedEvidenceEdits": 0,
+    "sourceEdits": 0,
+    "onlyNewFile": "yup2007-package-gate-review-final.json"
+  }
+}
