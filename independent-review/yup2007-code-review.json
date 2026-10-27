@@ -1,0 +1,97 @@
+{
+  "reviewedAtUtc": "2026-10-27T12:08:50.594621+00:00",
+  "role": "independent read-only correctness/regression review; no network/install/checkout changes",
+  "checkout": "F:\\Github-PR\\inspection\\heartbeat1140-js-yup",
+  "branch": "fix-nested-conditional-cast-dependencies",
+  "base": "ff31eee8a2b10c938bb3a22544d9e33957a8cf01",
+  "finalProductionRawSha256": {
+    "src/object.ts": "9c595d4522b73be6e807312b33bc9aa3be92aa93955c8dba3245949cf2d5aa92",
+    "src/Condition.ts": "a4fa35ed1720306effca9b0fbbf50112dfc8fe95ff3cc76f9e0db11ce49da657",
+    "src/util/siblingResolvers.ts": "06ad2fbfcd3d9c11d6f22e4d8d759ed696a29f84569bd8c19b563c31d1f75155"
+  },
+  "conclusion": "NO_REMAINING_BLOCKING_FINDINGS for exactly the reviewed production bytes; complete JS quality/runtime/package/publication gates remain owned by JS/root.",
+  "resolvedFindings": [
+    {
+      "id": "reference-alias-cast",
+      "reportedBy": "ai_sdk_1140",
+      "severity": "P2",
+      "initial": "castProp preempted a Reference field without resolving that reference own sibling prerequisite; memoized undefined and dropped b:true which baseline preserved. Reference-mediated cycles also bypassed detection.",
+      "reproduction": "object({a:bool(),d:bool(),b:ref('d'),c:array().when('a',{is:true,then:s=>s.when('b',{is:true,then:s=>s.compact()})})}).cast({a:true,d:'true',c:['']})",
+      "resolution": "object.ts:204-205 schedules Reference sibling dependency before field.resolve/cast, using same root-key/exclusion/active state. Final probes cover root/nested/chained/map and ref-mediated cycle.",
+      "status": "resolved"
+    },
+    {
+      "id": "caught-dependency-failure",
+      "reportedBy": "root",
+      "severity": "P2",
+      "initialSourceRawSha256": "adcce702e8e5c04cfd3e5324de8b0c87ccf9970eb802bde388a3134cab2250dc",
+      "initial": "Success-only memoization retried an earlier failed dependency when user callback caught the first error, allowing baseline-failing input to succeed and running transform twice.",
+      "resolution": "object.ts:184,189,245-247 failures Map memoizes and rethrows exact original thrown value; Map.has preserves falsy/undefined values.",
+      "status": "resolved",
+      "independentFinalControl": "Eight thrown values (undefined/null/0/empty string/false/string/object/Error) all remain overall failure, exact identity preserved, transform exactly once; original baseline same terminal contract.",
+      "reviewCorrection": "Initial self-runner incorrectly expected retry success and had 16PASS; those outcomes are not a final compatibility approval. Final runner replaces that target with baseline-contract failure controls; old logs/SHA retained."
+    }
+  ],
+  "finalVerification": {
+    "runner": "F:\\Github-PR\\ci-evidence\\heartbeat1140-ai-sdk\\yup2007-boundary-review-final.cjs",
+    "receipt": "F:\\Github-PR\\ci-evidence\\heartbeat1140-ai-sdk\\yup2007-review-final-runtime-receipt.json",
+    "baseline": {
+      "pass": 17,
+      "fail": 7,
+      "meaning": "7 expected missing-feature/control failures; not full suite"
+    },
+    "candidate": {
+      "pass": 24,
+      "fail": 0
+    },
+    "runtime": "node v24.14.0",
+    "versions": {
+      "typescript": "4.9.5",
+      "property-expr": "2.0.5",
+      "toposort": "2.0.2",
+      "tiny-case": "1.0.3"
+    },
+    "sourceStableDuringRun": true,
+    "covered": [
+      "Reference root/nested/chained prerequisites and map executes once",
+      "Reference-mediated dynamic cycle and inactive cycle",
+      "excludedEdges owner and reference dependency exclusion",
+      "nested object registries in array elements",
+      "registry cleanup after success and exception",
+      "field strict vs object strict semantics",
+      "dependency type-error correct path",
+      "plain parent identity and no internal own keys",
+      "all eight caught thrown values remain terminal with identity and no retry",
+      "existing static conditional callback order exactly baseline and unchanged cast retains input identity"
+    ],
+    "staticCallbackTraceIdentical": true,
+    "logs": [
+      "yup2007-review-final-baseline.stdout.raw",
+      "yup2007-review-final-baseline.stderr.raw",
+      "yup2007-review-final-candidate.stdout.raw",
+      "yup2007-review-final-candidate.stderr.raw"
+    ],
+    "sourceInspection": [
+      "WeakMap only keyed by fresh intermediate parent, installed before cast loop and deleted in finally",
+      "nested object casts allocate independent fresh parent and resolver closures",
+      "currentProp restored and active set cleared in finally; strips count completed exactly once",
+      "Condition hook applies only isSibling references, not context/value references",
+      "dynamic refs read casted values before branch selection, no Proxy/public option mutation/second global cast pass",
+      "lazy fields resolve to concrete schema before .cast; existing lazy nested-path regression read",
+      "no changed public signatures in source; existing lib/index.d.ts contains no siblingResolvers/WeakMap/castProp/failures symbol"
+    ],
+    "limitations": [
+      "Own runner executes actual public source via installed TypeScript transpiler; not a built-package/CLI/full-suite run",
+      "Existing lib/index.d.ts inspected for leakage but freshness/final bundled artifact proof is delegated to JS",
+      "No repeated network policy/ownership checks; root/JS own fresh prepublication gates",
+      "Overall no-blocker conclusion binds exact raw source hashes above; later source changes require scoped recheck"
+    ]
+  },
+  "mutationBoundary": {
+    "checkoutEdits": 0,
+    "dependencyInstalls": 0,
+    "networkCalls": 0,
+    "fullSuiteRepeats": 0,
+    "writtenFiles": "only own ci-evidence/heartbeat1140-ai-sdk review runner/log/receipt/report"
+  }
+}

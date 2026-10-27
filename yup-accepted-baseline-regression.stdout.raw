@@ -1,0 +1,97 @@
+
+ RUN  v3.2.4 F:/Github-PR/inspection/heartbeat1140-js-yup-base
+
+ ❯ |async| test/object-conditional.ts (28 tests | 15 failed) 24ms
+   × nested conditional casting > casts nested dependencies for field order abc and value true 7ms
+     → expected [ '' ] to deeply equal []
+   × nested conditional casting > casts nested dependencies for field order abc and value true 1ms
+     → expected [ '' ] to deeply equal []
+   × nested conditional casting > casts nested dependencies for field order abc and value 1 1ms
+     → expected [ '' ] to deeply equal []
+   ✓ nested conditional casting > casts nested dependencies for field order acb and value true 2ms
+   ✓ nested conditional casting > casts nested dependencies for field order acb and value true 1ms
+   ✓ nested conditional casting > casts nested dependencies for field order acb and value 1 0ms
+   × nested conditional casting > casts nested dependencies for field order bac and value true 0ms
+     → expected [ '' ] to deeply equal []
+   × nested conditional casting > casts nested dependencies for field order bac and value true 0ms
+     → expected [ '' ] to deeply equal []
+   × nested conditional casting > casts nested dependencies for field order bac and value 1 0ms
+     → expected [ '' ] to deeply equal []
+   × nested conditional casting > casts nested dependencies for field order bca and value true 0ms
+     → expected [ '' ] to deeply equal []
+   × nested conditional casting > casts nested dependencies for field order bca and value true 0ms
+     → expected [ '' ] to deeply equal []
+   × nested conditional casting > casts nested dependencies for field order bca and value 1 0ms
+     → expected [ '' ] to deeply equal []
+   ✓ nested conditional casting > casts nested dependencies for field order cab and value true 0ms
+   ✓ nested conditional casting > casts nested dependencies for field order cab and value true 0ms
+   ✓ nested conditional casting > casts nested dependencies for field order cab and value 1 0ms
+   ✓ nested conditional casting > casts nested dependencies for field order cba and value true 0ms
+   ✓ nested conditional casting > casts nested dependencies for field order cba and value true 0ms
+   ✓ nested conditional casting > casts nested dependencies for field order cba and value 1 0ms
+   × nested conditional casting > reads defaults before selecting a nested branch 1ms
+     → expected { a: true, c: [ '' ], b: true } to deeply equal { a: true, b: true, c: [] }
+   × nested conditional casting > casts each field once and keeps the same plain parent 1ms
+     → expected { a: true, c: [ '' ], b: 1 } to deeply equal { a: true, b: 1, c: [] }
+   × nested conditional casting > resolves nested paths in lazy fields 1ms
+     → expected { c: [ '' ], …(2) } to deeply equal { Object (a, b, ...) }
+   × nested conditional casting > rejects a dynamically discovered cycle 2ms
+     → expected [Function] to throw an error
+   × nested conditional casting > casts a sibling reference chain through d 1ms
+     → expected [ '' ] to deeply equal []
+   × nested conditional casting > casts a sibling reference chain through d.enabled 0ms
+     → expected [ '' ] to deeply equal []
+   ✓ nested conditional casting > respects an excluded dynamic dependency 0ms
+   ✓ nested conditional casting > removes the cast resolver when a condition throws 0ms
+   ✓ nested conditional casting > does not retry a caught dependency failure (Error: dependency failed) 0ms
+   ✓ nested conditional casting > does not retry a caught dependency failure (undefined) 0ms
+ ❯ |sync| test/object-conditional.ts (28 tests | 15 failed) 24ms
+   × nested conditional casting > casts nested dependencies for field order abc and value true 7ms
+     → expected [ '' ] to deeply equal []
+   × nested conditional casting > casts nested dependencies for field order abc and value true 1ms
+     → expected [ '' ] to deeply equal []
+   × nested conditional casting > casts nested dependencies for field order abc and value 1 1ms
+     → expected [ '' ] to deeply equal []
+   ✓ nested conditional casting > casts nested dependencies for field order acb and value true 2ms
+   ✓ nested conditional casting > casts nested dependencies for field order acb and value true 1ms
+   ✓ nested conditional casting > casts nested dependencies for field order acb and value 1 0ms
+   × nested conditional casting > casts nested dependencies for field order bac and value true 0ms
+     → expected [ '' ] to deeply equal []
+   × nested conditional casting > casts nested dependencies for field order bac and value true 0ms
+     → expected [ '' ] to deeply equal []
+   × nested conditional casting > casts nested dependencies for field order bac and value 1 0ms
+     → expected [ '' ] to deeply equal []
+   × nested conditional casting > casts nested dependencies for field order bca and value true 0ms
+     → expected [ '' ] to deeply equal []
+   × nested conditional casting > casts nested dependencies for field order bca and value true 0ms
+     → expected [ '' ] to deeply equal []
+   × nested conditional casting > casts nested dependencies for field order bca and value 1 0ms
+     → expected [ '' ] to deeply equal []
+   ✓ nested conditional casting > casts nested dependencies for field order cab and value true 0ms
+   ✓ nested conditional casting > casts nested dependencies for field order cab and value true 0ms
+   ✓ nested conditional casting > casts nested dependencies for field order cab and value 1 0ms
+   ✓ nested conditional casting > casts nested dependencies for field order cba and value true 0ms
+   ✓ nested conditional casting > casts nested dependencies for field order cba and value true 0ms
+   ✓ nested conditional casting > casts nested dependencies for field order cba and value 1 0ms
+   × nested conditional casting > reads defaults before selecting a nested branch 1ms
+     → expected { a: true, c: [ '' ], b: true } to deeply equal { a: true, b: true, c: [] }
+   × nested conditional casting > casts each field once and keeps the same plain parent 1ms
+     → expected { a: true, c: [ '' ], b: 1 } to deeply equal { a: true, b: 1, c: [] }
+   × nested conditional casting > resolves nested paths in lazy fields 1ms
+     → expected { c: [ '' ], …(2) } to deeply equal { Object (a, b, ...) }
+   × nested conditional casting > rejects a dynamically discovered cycle 3ms
+     → expected [Function] to throw an error
+   × nested conditional casting > casts a sibling reference chain through d 1ms
+     → expected [ '' ] to deeply equal []
+   × nested conditional casting > casts a sibling reference chain through d.enabled 1ms
+     → expected [ '' ] to deeply equal []
+   ✓ nested conditional casting > respects an excluded dynamic dependency 0ms
+   ✓ nested conditional casting > removes the cast resolver when a condition throws 0ms
+   ✓ nested conditional casting > does not retry a caught dependency failure (Error: dependency failed) 0ms
+   ✓ nested conditional casting > does not retry a caught dependency failure (undefined) 0ms
+
+ Test Files  2 failed (2)
+      Tests  30 failed | 26 passed (56)
+   Start at  05:10:42
+   Duration  4.83s (transform 450ms, setup 669ms, collect 29ms, tests 48ms, environment 0ms, prepare 317ms)
+

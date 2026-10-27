@@ -1,0 +1,80 @@
+# This file contains the result of Yarn building a package (esbuild@npm:0.25.10)
+# Script name: postinstall
+
+node:internal/errors:999
+  const err = new Error(message);
+              ^
+
+Error: Command failed: /usr/local/bin/node /work/yup/node_modules/esbuild/bin/esbuild --version
+node:child_process:1029
+    throw err;
+    ^
+
+<ref *1> Error: spawnSync /work/yup/node_modules/@esbuild/linux-x64/bin/esbuild EACCES
+    at Object.spawnSync (node:internal/child_process:1175:20)
+    at spawnSync (node:child_process:976:24)
+    at Object.execFileSync (node:child_process:1019:15)
+    at Object.<anonymous> (/work/yup/node_modules/esbuild/bin/esbuild:222:28)
+    at Module._compile (node:internal/modules/cjs/loader:1968:14)
+    at Object..js (node:internal/modules/cjs/loader:2108:10)
+    at Module.load (node:internal/modules/cjs/loader:1690:32)
+    at Module._load (node:internal/modules/cjs/loader:1480:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'spawnSync /work/yup/node_modules/@esbuild/linux-x64/bin/esbuild',
+  path: '/work/yup/node_modules/@esbuild/linux-x64/bin/esbuild',
+  spawnargs: [ '--version' ],
+  error: [Circular *1],
+  status: null,
+  signal: null,
+  output: null,
+  pid: 0,
+  stdout: undefined,
+  stderr: undefined
+}
+
+Node.js v26.12.1
+
+    at genericNodeError (node:internal/errors:999:15)
+    at wrappedFn (node:internal/errors:544:14)
+    at checkExecSyncError (node:child_process:990:11)
+    at Object.execFileSync (node:child_process:1026:15)
+    at validateBinaryVersion (/work/yup/node_modules/esbuild/install.js:102:28)
+    at /work/yup/node_modules/esbuild/install.js:285:5 {
+  status: 1,
+  signal: null,
+  output: [
+    null,
+    Buffer(0) [Uint8Array] [],
+    Buffer(1128) [Uint8Array] [
+      110, 111, 100, 101,  58,  99, 104, 105, 108, 100,  95, 112,
+      114, 111,  99, 101, 115, 115,  58,  49,  48,  50,  57,  10,
+       32,  32,  32,  32, 116, 104, 114, 111, 119,  32, 101, 114,
+      114,  59,  10,  32,  32,  32,  32,  94,  10,  10,  60, 114,
+      101, 102,  32,  42,  49,  62,  32,  69, 114, 114, 111, 114,
+       58,  32, 115, 112,  97, 119, 110,  83, 121, 110,  99,  32,
+       47, 119, 111, 114, 107,  47, 121, 117, 112,  47, 110, 111,
+      100, 101,  95, 109, 111, 100, 117, 108, 101, 115,  47,  64,
+      101, 115,  98, 117,
+      ... 1028 more items
+    ]
+  ],
+  pid: 129,
+  stdout: Buffer(0) [Uint8Array] [],
+  stderr: Buffer(1128) [Uint8Array] [
+    110, 111, 100, 101,  58,  99, 104, 105, 108, 100,  95, 112,
+    114, 111,  99, 101, 115, 115,  58,  49,  48,  50,  57,  10,
+     32,  32,  32,  32, 116, 104, 114, 111, 119,  32, 101, 114,
+    114,  59,  10,  32,  32,  32,  32,  94,  10,  10,  60, 114,
+    101, 102,  32,  42,  49,  62,  32,  69, 114, 114, 111, 114,
+     58,  32, 115, 112,  97, 119, 110,  83, 121, 110,  99,  32,
+     47, 119, 111, 114, 107,  47, 121, 117, 112,  47, 110, 111,
+    100, 101,  95, 109, 111, 100, 117, 108, 101, 115,  47,  64,
+    101, 115,  98, 117,
+    ... 1028 more items
+  ]
+}
+
+Node.js v26.12.1

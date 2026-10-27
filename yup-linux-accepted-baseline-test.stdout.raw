@@ -1,0 +1,37 @@
+
+ RUN  v3.2.4 /work/yup-baseline
+
+ ✓ |async| test/yup.js (23 tests) 19ms
+ ✓ |sync| test/yup.js (23 tests) 18ms
+ ✓ |async| test/lazy.ts (6 tests) 12ms
+ ✓ |async| test/tuple.ts (15 tests) 15ms
+ ✓ |sync| test/lazy.ts (6 tests) 13ms
+ ✓ |async| test/util/parseIsoDate.ts (45 tests) 9ms
+ ✓ |sync| test/util/parseIsoDate.ts (45 tests) 11ms
+ ✓ |sync| test/tuple.ts (15 tests) 14ms
+ ✓ |async| test/array.ts (29 tests) 44ms
+ ✓ |sync| test/array.ts (29 tests) 28ms
+ ✓ |async| test/date.ts (6 tests) 11ms
+ ✓ |async| test/bool.ts (6 tests) 9ms
+ ✓ |sync| test/date.ts (6 tests) 10ms
+ ✓ |async| test/string.ts (44 tests | 1 skipped) 18ms
+ ✓ |sync| test/string.ts (44 tests | 1 skipped) 24ms
+ ✓ |sync| test/object.ts (60 tests) 49ms
+ ✓ |async| test/object.ts (60 tests) 51ms
+ ✓ |sync| test/standardSchema.ts (48 tests) 57ms
+ ✓ |sync| test/number.ts (54 tests) 16ms
+ ✓ |async| test/number.ts (54 tests) 14ms
+ ✓ |async| test/mixed.ts (84 tests) 41ms
+ ✓ |async| test/standardSchema.ts (48 tests) 58ms
+ ✓ |sync| test/mixed.ts (87 tests) 43ms
+ ✓ |async| test/ValidationError.ts (8 tests) 3ms
+ ✓ |sync| test/setLocale.ts (5 tests) 3ms
+ ✓ |sync| test/bool.ts (6 tests) 7ms
+ ✓ |sync| test/ValidationError.ts (8 tests) 3ms
+ ✓ |async| test/setLocale.ts (5 tests) 4ms
+
+ Test Files  28 passed (28)
+      Tests  867 passed | 2 skipped (869)
+   Start at  12:19:50
+   Duration  11.84s (transform 3.85s, setup 12.92s, collect 5.22s, tests 601ms, environment 8ms, prepare 28.02s)
+

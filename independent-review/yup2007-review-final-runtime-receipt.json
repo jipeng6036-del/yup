@@ -1,0 +1,33 @@
+{
+  "atUtc": "2026-10-27T12:08:07.730382+00:00",
+  "sourceBefore": {
+    "src/object.ts": "9c595d4522b73be6e807312b33bc9aa3be92aa93955c8dba3245949cf2d5aa92",
+    "src/Condition.ts": "a4fa35ed1720306effca9b0fbbf50112dfc8fe95ff3cc76f9e0db11ce49da657",
+    "src/util/siblingResolvers.ts": "06ad2fbfcd3d9c11d6f22e4d8d759ed696a29f84569bd8c19b563c31d1f75155"
+  },
+  "sourceAfter": {
+    "src/object.ts": "9c595d4522b73be6e807312b33bc9aa3be92aa93955c8dba3245949cf2d5aa92",
+    "src/Condition.ts": "a4fa35ed1720306effca9b0fbbf50112dfc8fe95ff3cc76f9e0db11ce49da657",
+    "src/util/siblingResolvers.ts": "06ad2fbfcd3d9c11d6f22e4d8d759ed696a29f84569bd8c19b563c31d1f75155"
+  },
+  "stable": true,
+  "runtime": "node v24.14.0",
+  "deps": "existing checkout node_modules, no install",
+  "baseline": {
+    "pass": 17,
+    "fail": 7
+  },
+  "runner": "F:\\Github-PR\\ci-evidence\\heartbeat1140-ai-sdk\\yup2007-boundary-review-final.cjs",
+  "staticCallbackTraceIdentical": true,
+  "candidate": {
+    "pass": 24,
+    "fail": 0
+  },
+  "baselineSource": "git show ff31eee8a2b10c938bb3a22544d9e33957a8cf01 source override for object/Condition only; all other production files unchanged by candidate",
+  "versions": {
+    "typescript": "4.9.5",
+    "property-expr": "2.0.5",
+    "toposort": "2.0.2",
+    "tiny-case": "1.0.3"
+  }
+}

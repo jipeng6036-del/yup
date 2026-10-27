@@ -1,0 +1,391 @@
+[
+  {
+    "id": "yup@1.7.1",
+    "name": "yup",
+    "version": "1.7.1",
+    "size": 151133,
+    "unpackedSize": 660672,
+    "shasum": "81976e9e004c164ffb0fcc900d1818d59c3e1a14",
+    "integrity": "sha512-8KiXYfC7rDvdQCvZ7Zj9rFRBqVvksaeaxKsPju0etGgqDN+RHhMmjZGsfVOVt2fRmWaFqPRjjpq9lzo81Yvr5Q==",
+    "filename": "yup-1.7.1.tgz",
+    "files": [
+      {
+        "path": ".babelrc.js",
+        "size": 415,
+        "mode": 420
+      },
+      {
+        "path": ".eslintignore",
+        "size": 23,
+        "mode": 420
+      },
+      {
+        "path": ".eslintrc",
+        "size": 707,
+        "mode": 420
+      },
+      {
+        "path": ".gitattributes",
+        "size": 483,
+        "mode": 420
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+        "size": 782,
+        "mode": 420
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/question.md",
+        "size": 482,
+        "mode": 420
+      },
+      {
+        "path": ".github/workflows/ci.yml",
+        "size": 399,
+        "mode": 420
+      },
+      {
+        "path": ".nvmrc",
+        "size": 8,
+        "mode": 420
+      },
+      {
+        "path": ".yarn/patches/@4c-rollout-npm-4.0.2-ab2b6d0bab.patch",
+        "size": 498,
+        "mode": 420
+      },
+      {
+        "path": ".yarnrc.yml",
+        "size": 25,
+        "mode": 420
+      },
+      {
+        "path": "CHANGELOG.md",
+        "size": 47947,
+        "mode": 420
+      },
+      {
+        "path": "LICENSE.md",
+        "size": 1078,
+        "mode": 420
+      },
+      {
+        "path": "README.md",
+        "size": 63152,
+        "mode": 420
+      },
+      {
+        "path": "docs/extending.md",
+        "size": 3278,
+        "mode": 420
+      },
+      {
+        "path": "lib/index.d.ts",
+        "size": 45467,
+        "mode": 420
+      },
+      {
+        "path": "lib/index.esm.js",
+        "size": 79669,
+        "mode": 420
+      },
+      {
+        "path": "lib/index.js",
+        "size": 80446,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 3035,
+        "mode": 420
+      },
+      {
+        "path": "renovate.json",
+        "size": 82,
+        "mode": 420
+      },
+      {
+        "path": "rollup.config.js",
+        "size": 829,
+        "mode": 420
+      },
+      {
+        "path": "src/array.ts",
+        "size": 8555,
+        "mode": 420
+      },
+      {
+        "path": "src/boolean.ts",
+        "size": 3144,
+        "mode": 420
+      },
+      {
+        "path": "src/Condition.ts",
+        "size": 1962,
+        "mode": 420
+      },
+      {
+        "path": "src/date.ts",
+        "size": 3901,
+        "mode": 420
+      },
+      {
+        "path": "src/globals.d.ts",
+        "size": 1,
+        "mode": 420
+      },
+      {
+        "path": "src/index.ts",
+        "size": 3636,
+        "mode": 420
+      },
+      {
+        "path": "src/Lazy.ts",
+        "size": 5698,
+        "mode": 420
+      },
+      {
+        "path": "src/locale.ts",
+        "size": 5363,
+        "mode": 420
+      },
+      {
+        "path": "src/mixed.ts",
+        "size": 2547,
+        "mode": 420
+      },
+      {
+        "path": "src/number.ts",
+        "size": 5357,
+        "mode": 420
+      },
+      {
+        "path": "src/object.ts",
+        "size": 15731,
+        "mode": 420
+      },
+      {
+        "path": "src/Reference.ts",
+        "size": 2280,
+        "mode": 420
+      },
+      {
+        "path": "src/schema.ts",
+        "size": 27557,
+        "mode": 420
+      },
+      {
+        "path": "src/setLocale.ts",
+        "size": 339,
+        "mode": 420
+      },
+      {
+        "path": "src/standardSchema.ts",
+        "size": 3854,
+        "mode": 420
+      },
+      {
+        "path": "src/string.ts",
+        "size": 10962,
+        "mode": 420
+      },
+      {
+        "path": "src/tuple.ts",
+        "size": 4940,
+        "mode": 420
+      },
+      {
+        "path": "src/types.ts",
+        "size": 2987,
+        "mode": 420
+      },
+      {
+        "path": "src/util/cloneDeep.ts",
+        "size": 1314,
+        "mode": 420
+      },
+      {
+        "path": "src/util/createValidation.ts",
+        "size": 5031,
+        "mode": 420
+      },
+      {
+        "path": "src/util/isAbsent.ts",
+        "size": 101,
+        "mode": 420
+      },
+      {
+        "path": "src/util/isSchema.ts",
+        "size": 148,
+        "mode": 420
+      },
+      {
+        "path": "src/util/objectTypes.ts",
+        "size": 1864,
+        "mode": 420
+      },
+      {
+        "path": "src/util/parseIsoDate.ts",
+        "size": 2490,
+        "mode": 420
+      },
+      {
+        "path": "src/util/parseJson.ts",
+        "size": 376,
+        "mode": 420
+      },
+      {
+        "path": "src/util/printValue.ts",
+        "size": 1598,
+        "mode": 420
+      },
+      {
+        "path": "src/util/reach.ts",
+        "size": 2533,
+        "mode": 420
+      },
+      {
+        "path": "src/util/ReferenceSet.ts",
+        "size": 877,
+        "mode": 420
+      },
+      {
+        "path": "src/util/sortByKeyOrder.ts",
+        "size": 445,
+        "mode": 420
+      },
+      {
+        "path": "src/util/sortFields.ts",
+        "size": 1014,
+        "mode": 420
+      },
+      {
+        "path": "src/util/toArray.ts",
+        "size": 129,
+        "mode": 420
+      },
+      {
+        "path": "src/util/types.ts",
+        "size": 1161,
+        "mode": 420
+      },
+      {
+        "path": "src/ValidationError.ts",
+        "size": 3011,
+        "mode": 420
+      },
+      {
+        "path": "test-setup.mjs",
+        "size": 583,
+        "mode": 420
+      },
+      {
+        "path": "test/.eslintignore",
+        "size": 23,
+        "mode": 420
+      },
+      {
+        "path": "test/array.ts",
+        "size": 8072,
+        "mode": 420
+      },
+      {
+        "path": "test/bool.ts",
+        "size": 2156,
+        "mode": 420
+      },
+      {
+        "path": "test/date.ts",
+        "size": 4417,
+        "mode": 420
+      },
+      {
+        "path": "test/helpers.ts",
+        "size": 1900,
+        "mode": 420
+      },
+      {
+        "path": "test/lazy.ts",
+        "size": 2243,
+        "mode": 420
+      },
+      {
+        "path": "test/mixed.ts",
+        "size": 34872,
+        "mode": 420
+      },
+      {
+        "path": "test/number.ts",
+        "size": 6539,
+        "mode": 420
+      },
+      {
+        "path": "test/object.ts",
+        "size": 29746,
+        "mode": 420
+      },
+      {
+        "path": "test/setLocale.ts",
+        "size": 1115,
+        "mode": 420
+      },
+      {
+        "path": "test/standardSchema.ts",
+        "size": 47638,
+        "mode": 420
+      },
+      {
+        "path": "test/string.ts",
+        "size": 12682,
+        "mode": 420
+      },
+      {
+        "path": "test/tsconfig.json",
+        "size": 185,
+        "mode": 420
+      },
+      {
+        "path": "test/tuple.ts",
+        "size": 3989,
+        "mode": 420
+      },
+      {
+        "path": "test/types/.eslintrc.js",
+        "size": 227,
+        "mode": 420
+      },
+      {
+        "path": "test/types/types.ts",
+        "size": 26062,
+        "mode": 420
+      },
+      {
+        "path": "test/util/parseIsoDate.ts",
+        "size": 9326,
+        "mode": 420
+      },
+      {
+        "path": "test/ValidationError.ts",
+        "size": 2031,
+        "mode": 420
+      },
+      {
+        "path": "test/yup.js",
+        "size": 6316,
+        "mode": 420
+      },
+      {
+        "path": "tsconfig.json",
+        "size": 148,
+        "mode": 420
+      },
+      {
+        "path": "vitest.config.ts",
+        "size": 691,
+        "mode": 420
+      }
+    ],
+    "entryCount": 75,
+    "bundled": []
+  }
+]

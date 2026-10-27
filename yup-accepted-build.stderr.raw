@@ -1,0 +1,11 @@
+
+./dts/index.d.ts → lib/index.d.ts...
+created lib/index.d.ts in 124ms
+
+./src/index.ts → lib/index.js, lib/index.esm.js...
+babelHelpers: 'bundled' option was used by default. It is recommended to configure this option explicitly, read more here: https://github.com/rollup/plugins/tree/master/packages/babel#babelhelpers
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+Browserslist: browsers data (caniuse-lite) is 13 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+created lib/index.js, lib/index.esm.js in 1s

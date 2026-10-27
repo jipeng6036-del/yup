@@ -1,0 +1,39 @@
+{
+  "completedAtUtc": "2026-10-27T12:24:36.643373+00:00",
+  "status": "passed",
+  "purpose": "Revalidate same74 independent public API boundaries on final thrown-value failure-cache source, superseding only older candidate source outcomes.",
+  "sourceUnchangedDuringRun": true,
+  "sourceManifestBefore": "yup2007-errorcache-source-before.json",
+  "sourceManifestAfter": "yup2007-errorcache-source-after.json",
+  "objectSha256": "9c595d4522b73be6e807312b33bc9aa3be92aa93955c8dba3245949cf2d5aa92",
+  "runnerSha256": "ccb0a286a6ed4b65ece766b7c633484767bd15af25a91dbeb37c20d8739e24f2",
+  "command": [
+    "E:/Nodejs/node.exe",
+    "F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs",
+    "F:\\Github-PR\\inspection\\heartbeat1140-js-yup",
+    "source"
+  ],
+  "returncode": 0,
+  "elapsedSeconds": 0.6090000001713634,
+  "counts": {
+    "total": 74,
+    "pass": 74,
+    "fail": 0
+  },
+  "failed": [],
+  "baseline": {
+    "notRerun": true,
+    "counts": {
+      "total": 74,
+      "pass": 47,
+      "fail": 27
+    },
+    "rawStdout": "yup2007-baseline-boundaries-final.stdout.raw",
+    "rawStdoutSha256": "44823e0099e8b1c73c37a2588647284e61c48dd9598b3c4a51c44f59ee64a35d",
+    "receipt": "yup2007-final-independent-receipt.json",
+    "reason": "Existing original bundled baseline raw retained. lib may now be rebuilt candidate; do not relabel it baseline."
+  },
+  "supersededCandidateReceipt": "yup2007-final-independent-receipt.json",
+  "supersededCandidateObjectSha256": "adcce702e8e5c04cfd3e5324de8b0c87ccf9970eb802bde388a3134cab2250dc",
+  "scope": "No product/dependency modifications, network calls, installs, baseline re-run or full-suite rerun. The failure-cache-specific regression was run by root/AI lane; this receipt covers existing74 controls only."
+}

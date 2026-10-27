@@ -1,0 +1,255 @@
+{
+  "mode": "baseline",
+  "node": "v24.14.0",
+  "pass": 17,
+  "fail": 7,
+  "rows": [
+    {
+      "name": "reference alias casts prerequisite and preserves public field",
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   ''\n+ ]\n- []\n"
+      }
+    },
+    {
+      "name": "reference alias nested path preserves transformed child",
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   ''\n+ ]\n- []\n"
+      }
+    },
+    {
+      "name": "reference alias chained prerequisites",
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   ''\n+ ]\n- []\n"
+      }
+    },
+    {
+      "name": "reference alias map receives casted dependency once",
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   ''\n+ ]\n- []\n"
+      }
+    },
+    {
+      "name": "reference-mediated dynamic cycle diagnosed",
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Missing expected exception."
+      }
+    },
+    {
+      "name": "inactive reference cycle remains inactive",
+      "status": "PASS",
+      "value": {
+        "a": false,
+        "c": [
+          ""
+        ],
+        "b": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "reference exclusion preserves baseline suppressed dependency",
+      "status": "PASS",
+      "value": {
+        "a": true,
+        "c": [
+          ""
+        ],
+        "d": true
+      }
+    },
+    {
+      "name": "dynamic cycle exclusion respects edge owner",
+      "status": "PASS",
+      "value": true
+    },
+    {
+      "name": "nested object registries isolated in arrays",
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   ''\n+ ]\n- []\n"
+      }
+    },
+    {
+      "name": "successful cast clears weak registry",
+      "status": "PASS",
+      "value": 1
+    },
+    {
+      "name": "exception clears weak registry without casting skipped sibling",
+      "status": "PASS",
+      "value": 0
+    },
+    {
+      "name": "strict nested field remains uncoerced on validation",
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   ''\n+ ]\n- []\n"
+      }
+    },
+    {
+      "name": "strict object validation does not invoke transforms",
+      "status": "PASS",
+      "value": {
+        "a": true,
+        "b": true,
+        "c": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "dependency type failure path belongs to dependency",
+      "status": "PASS",
+      "value": true
+    },
+    {
+      "name": "parent remains same plain object and unknown keys hidden by strip",
+      "status": "PASS",
+      "value": true
+    },
+    {
+      "name": "caught dependency failure remains terminal and same identity 0",
+      "status": "PASS",
+      "value": {
+        "calls": 1,
+        "caught": 0,
+        "threw": true,
+        "identity": true,
+        "kind": "undefined"
+      }
+    },
+    {
+      "name": "caught dependency failure remains terminal and same identity 1",
+      "status": "PASS",
+      "value": {
+        "calls": 1,
+        "caught": 0,
+        "threw": true,
+        "identity": true,
+        "kind": "null"
+      }
+    },
+    {
+      "name": "caught dependency failure remains terminal and same identity 2",
+      "status": "PASS",
+      "value": {
+        "calls": 1,
+        "caught": 0,
+        "threw": true,
+        "identity": true,
+        "kind": "number"
+      }
+    },
+    {
+      "name": "caught dependency failure remains terminal and same identity 3",
+      "status": "PASS",
+      "value": {
+        "calls": 1,
+        "caught": 0,
+        "threw": true,
+        "identity": true,
+        "kind": "string"
+      }
+    },
+    {
+      "name": "caught dependency failure remains terminal and same identity 4",
+      "status": "PASS",
+      "value": {
+        "calls": 1,
+        "caught": 0,
+        "threw": true,
+        "identity": true,
+        "kind": "boolean"
+      }
+    },
+    {
+      "name": "caught dependency failure remains terminal and same identity 5",
+      "status": "PASS",
+      "value": {
+        "calls": 1,
+        "caught": 0,
+        "threw": true,
+        "identity": true,
+        "kind": "string"
+      }
+    },
+    {
+      "name": "caught dependency failure remains terminal and same identity 6",
+      "status": "PASS",
+      "value": {
+        "calls": 1,
+        "caught": 0,
+        "threw": true,
+        "identity": true,
+        "kind": "object"
+      }
+    },
+    {
+      "name": "caught dependency failure remains terminal and same identity 7",
+      "status": "PASS",
+      "value": {
+        "calls": 1,
+        "caught": 0,
+        "threw": true,
+        "identity": true,
+        "kind": "object"
+      }
+    },
+    {
+      "name": "static callback ordering and unchanged identity",
+      "status": "PASS",
+      "value": [
+        [
+          "a",
+          "transform",
+          "a"
+        ],
+        [
+          "b",
+          "condition",
+          [
+            true
+          ],
+          [
+            "a"
+          ]
+        ],
+        [
+          "b",
+          "transform",
+          "b"
+        ],
+        [
+          "c",
+          "condition",
+          [
+            true,
+            true
+          ],
+          [
+            "a",
+            "b"
+          ]
+        ],
+        [
+          "c",
+          "transform",
+          "c"
+        ]
+      ]
+    }
+  ]
+}

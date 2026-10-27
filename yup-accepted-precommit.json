@@ -1,0 +1,1 @@
+{"command": ["E:/Nodejs/node.exe", "E:/Nodejs/node_modules/corepack/dist/yarn.js", "precommit"], "returncode": 0, "elapsedSeconds": 1.420180320739746, "interpretation": "Configured lint-staged globs do not match TypeScript. No tasks expected; real ESLint/Prettier passed separately."}

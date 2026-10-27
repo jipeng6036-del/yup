@@ -1,0 +1,89 @@
+{
+  "completedAtUtc": "2026-10-27T12:06:17.921378+00:00",
+  "sourceUnchangedDuringBothRuns": true,
+  "sourceManifestBefore": "yup2007-final-independent-source-before.json",
+  "sourceManifestAfter": "yup2007-final-independent-source-after.json",
+  "baselineHead": "ff31eee8a2b10c938bb3a22544d9e33957a8cf01",
+  "runnerSha256": "ccb0a286a6ed4b65ece766b7c633484767bd15af25a91dbeb37c20d8739e24f2",
+  "results": [
+    {
+      "phase": "baseline",
+      "mode": "built",
+      "command": [
+        "E:/Nodejs/node.exe",
+        "F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs",
+        "F:\\Github-PR\\inspection\\heartbeat1140-js-yup",
+        "built"
+      ],
+      "returncode": 1,
+      "seconds": 0.26599999982863665,
+      "counts": {
+        "total": 74,
+        "pass": 47,
+        "fail": 27
+      },
+      "entrySha256": "7cf6db6d7fc3e460eb5427ca120934efedc79b8233b7bc90d6c91299ced40ed0",
+      "failed": [
+        "permutation/abc/b=true",
+        "permutation/abc/b=\"true\"",
+        "permutation/abc/b=1",
+        "permutation/bac/b=true",
+        "permutation/bac/b=\"true\"",
+        "permutation/bac/b=1",
+        "permutation/bca/b=true",
+        "permutation/bca/b=\"true\"",
+        "permutation/bca/b=1",
+        "default-true-sibling",
+        "cast-ignores-field-strict-as-before",
+        "nested-dotpath-default-coercion",
+        "outer-otherwise-can-introduce-sibling-dependency",
+        "non-idempotent-transforms-once/cast",
+        "non-idempotent-transforms-once/validateSync",
+        "non-idempotent-transforms-once/validate",
+        "unknown-sibling/true",
+        "dynamic-cycle/outer=true",
+        "pseudo-cycle/defaultB=true",
+        "pseudo-cycle/defaultB=false",
+        "reference-chain-preserves-casted-sibling/dotted=false",
+        "reference-chain-preserves-casted-sibling/dotted=true",
+        "transitive-sibling-reference-chain",
+        "excluded-reference-edge/abcde",
+        "dynamic-cycle-through-reference/active=true",
+        "excluded-reference-cycle-edge-remains-usable",
+        "resolver-removed-after-throw-and-new-call-is-independent"
+      ]
+    },
+    {
+      "phase": "candidate",
+      "mode": "source",
+      "command": [
+        "E:/Nodejs/node.exe",
+        "F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs",
+        "F:\\Github-PR\\inspection\\heartbeat1140-js-yup",
+        "source"
+      ],
+      "returncode": 0,
+      "seconds": 0.6409999998286366,
+      "counts": {
+        "total": 74,
+        "pass": 74,
+        "fail": 0
+      },
+      "entrySha256": "9ac09fe0b3a686cad5bc2f06c782dfc8f104bd7cc6c8f87862cce4a9aa68f180",
+      "failed": []
+    }
+  ],
+  "scope": "Public API only; baseline bundled lib and candidate TypeScript loader use same installed node_modules. No checkout/product/dependency modifications; no network. Expanded set replaces no earlier raw evidence.",
+  "harnessCorrection": {
+    "priorRawRetainedPrefix": "uncorrected-control-",
+    "issue": "In the added excluded-reference-edge test, the explicit-dependency control initially used abcde order even when case order was cbade; baseline/candidate comparison therefore mixed field orders. Corrected control to the identical requested order and reran both baseline and candidate. No source/implementation change was made by this reviewer.",
+    "priorCandidateResult": {
+      "pass": 73,
+      "fail": 1
+    },
+    "currentCandidateResult": {
+      "pass": 74,
+      "fail": 0
+    }
+  }
+}

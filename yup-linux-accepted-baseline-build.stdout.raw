@@ -1,0 +1,24 @@
+┌───────────────────────────────┐
+│                               │
+│   Destination: lib/index.js   │
+│   Bundle Size:  78.52 KB      │
+│   Minified Size:  41.67 KB    │
+│   Gzipped Size:  12.12 KB     │
+│                               │
+└───────────────────────────────┘
+┌───────────────────────────────────┐
+│                                   │
+│   Destination: lib/index.esm.js   │
+│   Bundle Size:  77.76 KB          │
+│   Minified Size:  41.02 KB        │
+│   Gzipped Size:  11.97 KB         │
+│                                   │
+└───────────────────────────────────┘
+
+DocToccing single file "README.md" for github.com.
+
+==================
+
+"README.md" will be updated
+
+Everything is OK.

@@ -1,0 +1,66 @@
+{
+  "baseline": {
+    "node": "v24.22.1",
+    "publicAPICases": 108,
+    "unexpectedValidationResults": 9,
+    "artifactConsumed": "same Windows-built tarball on both Windows and Linux",
+    "libByteBridge": {
+      "index.js": {
+        "windowsSha256": "7cf6db6d7fc3e460eb5427ca120934efedc79b8233b7bc90d6c91299ced40ed0",
+        "linuxSha256": "4d82d86f75cfdd5a17b3c72aa66ead691febaf3260e2b4cffdbf401fb3e2eacb",
+        "rawEqual": false,
+        "crlfNormalizedEqual": true,
+        "windowsCRLF": 38,
+        "linuxCRLF": 0
+      },
+      "index.esm.js": {
+        "windowsSha256": "92cfe08bb1299737beddcd29357729cf5b43939c4e20526605af5fb9a004a39e",
+        "linuxSha256": "14679b6b262c8d59d05e7cd56e0eabe4ef359f0787c8ab92bdcdba1102d9bafc",
+        "rawEqual": false,
+        "crlfNormalizedEqual": true,
+        "windowsCRLF": 38,
+        "linuxCRLF": 0
+      },
+      "index.d.ts": {
+        "windowsSha256": "1db71aec9c5f6900e71d206a83fca838cbe513e72ce84e54d7997f4231a1fd27",
+        "linuxSha256": "3ea29ab1957aedc6ac0afae6175b5579abcd67cf6072853240edb9df9bc297c6",
+        "rawEqual": false,
+        "crlfNormalizedEqual": true,
+        "windowsCRLF": 893,
+        "linuxCRLF": 0
+      }
+    }
+  },
+  "candidate": {
+    "node": "v24.22.1",
+    "publicAPICases": 108,
+    "unexpectedValidationResults": 0,
+    "artifactConsumed": "same Windows-built tarball on both Windows and Linux",
+    "libByteBridge": {
+      "index.js": {
+        "windowsSha256": "8fcf65780e7b16a8cb06801977206bd2b2fdd56c36062e3a05429ca716a0d853",
+        "linuxSha256": "d8955a7aec316f0a4adbdece6842391f6a9a56502ddc910d5d85974f789794af",
+        "rawEqual": false,
+        "crlfNormalizedEqual": true,
+        "windowsCRLF": 36,
+        "linuxCRLF": 0
+      },
+      "index.esm.js": {
+        "windowsSha256": "be1d902155f3af74cb0be6faf67ee2d4ddd2450ec5547da1947a69d3f7603479",
+        "linuxSha256": "4fb1e7eca1f5fe8a87e8c5d9836a79ffb6a9a6414f54b35c54645a3290e16111",
+        "rawEqual": false,
+        "crlfNormalizedEqual": true,
+        "windowsCRLF": 36,
+        "linuxCRLF": 0
+      },
+      "index.d.ts": {
+        "windowsSha256": "1db71aec9c5f6900e71d206a83fca838cbe513e72ce84e54d7997f4231a1fd27",
+        "linuxSha256": "3ea29ab1957aedc6ac0afae6175b5579abcd67cf6072853240edb9df9bc297c6",
+        "rawEqual": false,
+        "crlfNormalizedEqual": true,
+        "windowsCRLF": 893,
+        "linuxCRLF": 0
+      }
+    }
+  }
+}

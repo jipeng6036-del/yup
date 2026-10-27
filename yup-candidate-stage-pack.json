@@ -1,0 +1,1 @@
+{"command": ["E:/Nodejs/node.exe", "E:/Nodejs/node_modules/npm/bin/npm-cli.js", "pack", "--json", "--pack-destination", "F:\\Github-PR\\ci-evidence\\heartbeat1140-js\\candidate-package"], "cwd": "F:\\Github-PR\\ci-evidence\\heartbeat1140-js\\candidate-package-stage", "returncode": 0, "elapsedSeconds": 0.6369025707244873}

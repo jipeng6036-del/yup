@@ -1,0 +1,15 @@
+➤ YN0050: The --frozen-lockfile option is deprecated; use --immutable and/or --immutable-cache instead
+
+➤ YN0000: · Yarn 4.10.0
+➤ YN0000: ┌ Resolution step
+➤ YN0000: └ Completed
+➤ YN0000: ┌ Post-resolution validation
+➤ YN0086: │ Some peer dependencies are incorrectly met by dependencies; run yarn explain peer-requirements for details.
+➤ YN0000: └ Completed
+➤ YN0000: ┌ Fetch step
+➤ YN0000: └ Completed in 0s 520ms
+➤ YN0000: ┌ Link step
+➤ YN0007: │ hookem@npm:2.0.1 must be built because it never has been before or the last one failed
+➤ YN0007: │ esbuild@npm:0.25.10 must be built because it never has been before or the last one failed
+➤ YN0000: └ Completed in 3s 839ms
+➤ YN0000: · Done with warnings in 4s 672ms

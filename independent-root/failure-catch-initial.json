@@ -1,0 +1,41 @@
+{
+  "atUtc": "2026-10-27T12:06:32.250415+00:00",
+  "exit": 0,
+  "actual": {
+    "node": "v24.14.0",
+    "baselineBuildSha": "7cf6db6d7fc3e460eb5427ca120934efedc79b8233b7bc90d6c91299ced40ed0",
+    "sourceHashes": {
+      "src/object.ts": "adcce702e8e5c04cfd3e5324de8b0c87ccf9970eb802bde388a3134cab2250dc",
+      "src/Condition.ts": "a4fa35ed1720306effca9b0fbbf50112dfc8fe95ff3cc76f9e0db11ce49da657",
+      "src/util/siblingResolvers.ts": "06ad2fbfcd3d9c11d6f22e4d8d759ed696a29f84569bd8c19b563c31d1f75155"
+    },
+    "rows": [
+      {
+        "mode": "exact-recorded-baseline-build",
+        "nodes": [
+          "a",
+          "c",
+          "b"
+        ],
+        "calls": 1,
+        "caught": 0,
+        "error": "dependent field failed on first cast"
+      },
+      {
+        "mode": "candidate-public-source",
+        "nodes": [
+          "a",
+          "c",
+          "b"
+        ],
+        "calls": 2,
+        "caught": 1,
+        "output": {
+          "a": true,
+          "c": "value",
+          "b": "retried-and-accepted"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+
+ RUN  v3.2.4 /work/yup-candidate
+
+ ✓ |async| test/yup.js (23 tests) 14ms
+ ✓ |sync| test/yup.js (23 tests) 29ms
+ ✓ |async| test/lazy.ts (6 tests) 14ms
+ ✓ |async| test/tuple.ts (15 tests) 18ms
+ ✓ |sync| test/util/parseIsoDate.ts (45 tests) 8ms
+ ✓ |sync| test/tuple.ts (15 tests) 16ms
+ ✓ |async| test/util/parseIsoDate.ts (45 tests) 16ms
+ ✓ |async| test/array.ts (29 tests) 39ms
+ ✓ |sync| test/array.ts (29 tests) 42ms
+ ✓ |sync| test/object-conditional.ts (28 tests) 42ms
+ ✓ |async| test/object-conditional.ts (28 tests) 62ms
+ ✓ |sync| test/date.ts (6 tests) 28ms
+ ✓ |async| test/date.ts (6 tests) 30ms
+ ✓ |sync| test/standardSchema.ts (48 tests) 113ms
+ ✓ |sync| test/number.ts (54 tests) 39ms
+ ✓ |async| test/standardSchema.ts (48 tests) 107ms
+ ✓ |async| test/number.ts (54 tests) 49ms
+ ✓ |async| test/string.ts (44 tests | 1 skipped) 57ms
+ ✓ |sync| test/string.ts (44 tests | 1 skipped) 68ms
+ ✓ |async| test/mixed.ts (84 tests) 146ms
+ ✓ |sync| test/mixed.ts (87 tests) 152ms
+ ✓ |sync| test/object.ts (60 tests) 180ms
+ ✓ |async| test/object.ts (60 tests) 191ms
+ ✓ |async| test/setLocale.ts (5 tests) 3ms
+ ✓ |sync| test/ValidationError.ts (8 tests) 3ms
+ ✓ |async| test/ValidationError.ts (8 tests) 4ms
+ ✓ |sync| test/lazy.ts (6 tests) 8ms
+ ✓ |async| test/bool.ts (6 tests) 7ms
+ ✓ |sync| test/bool.ts (6 tests) 9ms
+ ✓ |sync| test/setLocale.ts (5 tests) 3ms
+
+ Test Files  30 passed (30)
+      Tests  923 passed | 2 skipped (925)
+   Start at  12:20:39
+   Duration  1.88s (transform 3.75s, setup 14.30s, collect 5.60s, tests 1.50s, environment 9ms, prepare 5.66s)
+

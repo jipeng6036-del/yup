@@ -1,0 +1,1022 @@
+{
+  "node": "v24.14.0",
+  "root": "F:\\Github-PR\\inspection\\heartbeat1140-js-yup",
+  "mode": "built",
+  "entry": "F:\\Github-PR\\inspection\\heartbeat1140-js-yup\\lib\\index.js",
+  "entrySha256": "7cf6db6d7fc3e460eb5427ca120934efedc79b8233b7bc90d6c91299ced40ed0",
+  "counts": {
+    "total": 74,
+    "pass": 47,
+    "fail": 27
+  },
+  "rows": [
+    {
+      "name": "permutation/abc/b=true",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n",
+        "actual": {
+          "a": true,
+          "b": true,
+          "c": [
+            ""
+          ]
+        },
+        "expected": {
+          "a": true,
+          "b": true,
+          "c": []
+        },
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:33:16\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:28:13\n    at Object.<anonymous> (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:210:3)\n    at Module._compile (node:internal/modules/cjs/loader:1812:14)\n    at Object..js (node:internal/modules/cjs/loader:1943:10)\n    at Module.load (node:internal/modules/cjs/loader:1533:32)\n    at Module._load (node:internal/modules/cjs/loader:1335:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+      }
+    },
+    {
+      "name": "permutation/abc/b=\"true\"",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n",
+        "actual": {
+          "a": true,
+          "c": [
+            ""
+          ],
+          "b": true
+        },
+        "expected": {
+          "a": true,
+          "b": true,
+          "c": []
+        },
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:33:16\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:28:13"
+      }
+    },
+    {
+      "name": "permutation/abc/b=1",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n",
+        "actual": {
+          "a": true,
+          "c": [
+            ""
+          ],
+          "b": true
+        },
+        "expected": {
+          "a": true,
+          "b": true,
+          "c": []
+        },
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:33:16\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:28:13"
+      }
+    },
+    {
+      "name": "permutation/abc/b=false",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": false,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/abc/b=\"false\"",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "c": [
+            ""
+          ],
+          "b": false
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/abc/b=0",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "c": [
+            ""
+          ],
+          "b": false
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/acb/b=true",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": true,
+          "a": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/acb/b=\"true\"",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": true,
+          "a": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/acb/b=1",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": true,
+          "a": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/acb/b=false",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": false,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/acb/b=\"false\"",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": false,
+          "a": true,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/acb/b=0",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": false,
+          "a": true,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/bac/b=true",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n",
+        "actual": {
+          "a": true,
+          "b": true,
+          "c": [
+            ""
+          ]
+        },
+        "expected": {
+          "a": true,
+          "b": true,
+          "c": []
+        },
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:33:16\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:28:13"
+      }
+    },
+    {
+      "name": "permutation/bac/b=\"true\"",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n",
+        "actual": {
+          "a": true,
+          "c": [
+            ""
+          ],
+          "b": true
+        },
+        "expected": {
+          "a": true,
+          "b": true,
+          "c": []
+        },
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:33:16\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:28:13"
+      }
+    },
+    {
+      "name": "permutation/bac/b=1",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n",
+        "actual": {
+          "a": true,
+          "c": [
+            ""
+          ],
+          "b": true
+        },
+        "expected": {
+          "a": true,
+          "b": true,
+          "c": []
+        },
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:33:16\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:28:13"
+      }
+    },
+    {
+      "name": "permutation/bac/b=false",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": false,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/bac/b=\"false\"",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "c": [
+            ""
+          ],
+          "b": false
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/bac/b=0",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "c": [
+            ""
+          ],
+          "b": false
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/bca/b=true",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n",
+        "actual": {
+          "a": true,
+          "b": true,
+          "c": [
+            ""
+          ]
+        },
+        "expected": {
+          "a": true,
+          "b": true,
+          "c": []
+        },
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:33:16\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:28:13"
+      }
+    },
+    {
+      "name": "permutation/bca/b=\"true\"",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n",
+        "actual": {
+          "a": true,
+          "c": [
+            ""
+          ],
+          "b": true
+        },
+        "expected": {
+          "a": true,
+          "b": true,
+          "c": []
+        },
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:33:16\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:28:13"
+      }
+    },
+    {
+      "name": "permutation/bca/b=1",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n",
+        "actual": {
+          "a": true,
+          "c": [
+            ""
+          ],
+          "b": true
+        },
+        "expected": {
+          "a": true,
+          "b": true,
+          "c": []
+        },
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:33:16\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:28:13"
+      }
+    },
+    {
+      "name": "permutation/bca/b=false",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": false,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/bca/b=\"false\"",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "c": [
+            ""
+          ],
+          "b": false
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/bca/b=0",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "c": [
+            ""
+          ],
+          "b": false
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/cab/b=true",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": true,
+          "a": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/cab/b=\"true\"",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": true,
+          "a": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/cab/b=1",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": true,
+          "a": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/cab/b=false",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": false,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/cab/b=\"false\"",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": false,
+          "a": true,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/cab/b=0",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": false,
+          "a": true,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/cba/b=true",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": true,
+          "a": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/cba/b=\"true\"",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": true,
+          "a": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/cba/b=1",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": true,
+          "a": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/cba/b=false",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": false,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/cba/b=\"false\"",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": false,
+          "a": true,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/cba/b=0",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": false,
+          "a": true,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "default-true-sibling",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n",
+        "actual": {
+          "a": true,
+          "c": [
+            ""
+          ],
+          "b": true
+        },
+        "expected": {
+          "a": true,
+          "b": true,
+          "c": []
+        },
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:43:12\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:41:9"
+      }
+    },
+    {
+      "name": "strip-sibling-remains-absent",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "strict-object-intentionally-skips-transforms",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "strict-field-keeps-raw-boolean-for-validation",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "cast-ignores-field-strict-as-before",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n",
+        "actual": {
+          "a": true,
+          "c": [
+            ""
+          ],
+          "b": true
+        },
+        "expected": {
+          "a": true,
+          "b": true,
+          "c": []
+        },
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:64:12\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:62:9"
+      }
+    },
+    {
+      "name": "nested-dotpath-default-coercion",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: {\n      enabled: true\n    },\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n",
+        "actual": {
+          "a": true,
+          "c": [
+            ""
+          ],
+          "b": {
+            "enabled": true
+          }
+        },
+        "expected": {
+          "a": true,
+          "b": {
+            "enabled": true
+          },
+          "c": []
+        },
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: {\n      enabled: true\n    },\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:68:12\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:66:9"
+      }
+    },
+    {
+      "name": "otherwise-inner-branch-reads-cast-sibling",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "outer-otherwise-can-introduce-sibling-dependency",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: false,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n",
+        "actual": {
+          "a": false,
+          "c": [
+            ""
+          ],
+          "b": true
+        },
+        "expected": {
+          "a": false,
+          "b": true,
+          "c": []
+        },
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: false,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:78:12\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:76:9"
+      }
+    },
+    {
+      "name": "inactive-outer-then-not-invoked",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "identity-no-transform-selected-schema",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "non-idempotent-transforms-once/cast",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: 2,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n",
+        "actual": {
+          "a": true,
+          "c": [
+            ""
+          ],
+          "b": 2
+        },
+        "expected": {
+          "a": true,
+          "b": 2,
+          "c": []
+        },
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: 2,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:101:14\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:91:11"
+      }
+    },
+    {
+      "name": "non-idempotent-transforms-once/validateSync",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly equal:\n+ actual - expected\n\n+ undefined\n- 'ValidationError'\n",
+        "expected": "ValidationError",
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ undefined\n- 'ValidationError'\n\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:100:74\n    at async test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:30)\n    at async F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:91:5"
+      }
+    },
+    {
+      "name": "non-idempotent-transforms-once/validate",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly equal:\n+ actual - expected\n\n+ undefined\n- 'ValidationError'\n",
+        "expected": "ValidationError",
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ undefined\n- 'ValidationError'\n\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:100:74\n    at async test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:30)\n    at async F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:91:5"
+      }
+    },
+    {
+      "name": "unknown-sibling/true",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   ''\n+ ]\n- []\n",
+        "actual": [
+          ""
+        ],
+        "expected": [],
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   ''\n+ ]\n- []\n\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:108:43\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:106:11"
+      }
+    },
+    {
+      "name": "unknown-sibling/false",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "unknown-sibling/undefined",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "static-cycle-keeps-build-time-error",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "excluded-edge-static-control",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "excluded-edge-keeps-unresolved-sibling-semantics",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "dynamic-cycle/outer=false",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "dynamic-cycle/outer=true",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "Error",
+        "message": "Expected validation to fail",
+        "stack": "Error: Expected validation to fail\n    at errorOf (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:16:68)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:130:23\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:127:11"
+      }
+    },
+    {
+      "name": "pseudo-cycle/defaultB=true",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [],\n-   c: [\n-     ''\n-   ],\n    d: true\n  }\n",
+        "actual": {
+          "a": true,
+          "c": [],
+          "d": true,
+          "b": true
+        },
+        "expected": {
+          "a": true,
+          "b": true,
+          "c": [
+            ""
+          ],
+          "d": true
+        },
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [],\n-   c: [\n-     ''\n-   ],\n    d: true\n  }\n\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:139:26\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:135:11"
+      }
+    },
+    {
+      "name": "pseudo-cycle/defaultB=false",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "Error",
+        "message": "Expected validation to fail",
+        "stack": "Error: Expected validation to fail\n    at errorOf (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:16:68)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:140:23\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:135:11"
+      }
+    },
+    {
+      "name": "explicit-excluded-dynamic-edge-is-not-reenabled",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "condition-builders-count/cast",
+      "expectedToChange": false,
+      "status": "PASS",
+      "observations": {
+        "outer": 1,
+        "inner": 1
+      }
+    },
+    {
+      "name": "condition-builders-count/validateSync",
+      "expectedToChange": false,
+      "status": "PASS",
+      "observations": {
+        "outer": 2,
+        "inner": 2
+      }
+    },
+    {
+      "name": "context-dependency-stays-outside-object-resolution",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "reference-chain-preserves-casted-sibling/dotted=false",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   ''\n+ ]\n- []\n",
+        "actual": [
+          ""
+        ],
+        "expected": [],
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   ''\n+ ]\n- []\n\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:167:39\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:163:11"
+      }
+    },
+    {
+      "name": "reference-chain-preserves-casted-sibling/dotted=true",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   ''\n+ ]\n- []\n",
+        "actual": [
+          ""
+        ],
+        "expected": [],
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   ''\n+ ]\n- []\n\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:167:39\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:163:11"
+      }
+    },
+    {
+      "name": "transitive-sibling-reference-chain",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ],\n-   c: [],\n    d: true,\n    e: true\n  }\n",
+        "actual": {
+          "e": true,
+          "a": true,
+          "c": [
+            ""
+          ],
+          "d": true,
+          "b": true
+        },
+        "expected": {
+          "a": true,
+          "b": true,
+          "c": [],
+          "d": true,
+          "e": true
+        },
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ],\n-   c: [],\n    d: true,\n    e: true\n  }\n\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:172:12\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:170:9"
+      }
+    },
+    {
+      "name": "excluded-reference-edge/abcde",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly equal:\n+ actual - expected\n\n+ true\n- undefined\n",
+        "actual": true,
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ true\n- undefined\n\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:182:14\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:175:11"
+      }
+    },
+    {
+      "name": "excluded-reference-edge/deabc",
+      "expectedToChange": true,
+      "status": "PASS"
+    },
+    {
+      "name": "excluded-reference-edge/cbade",
+      "expectedToChange": true,
+      "status": "PASS"
+    },
+    {
+      "name": "dynamic-cycle-through-reference/active=false",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "dynamic-cycle-through-reference/active=true",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "Error",
+        "message": "Expected validation to fail",
+        "stack": "Error: Expected validation to fail\n    at errorOf (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:16:68)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:190:30\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:187:11"
+      }
+    },
+    {
+      "name": "excluded-reference-cycle-edge-remains-usable",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ],\n-   c: [],\n    d: true\n  }\n",
+        "actual": {
+          "a": true,
+          "c": [
+            ""
+          ],
+          "d": true,
+          "b": true
+        },
+        "expected": {
+          "a": true,
+          "b": true,
+          "c": [],
+          "d": true
+        },
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ],\n-   c: [],\n    d: true\n  }\n\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:196:12\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:194:9"
+      }
+    },
+    {
+      "name": "unknown-sibling-stripUnknown-stays-absent",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "resolver-removed-after-throw-and-new-call-is-independent",
+      "expectedToChange": true,
+      "status": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n",
+        "actual": {
+          "a": true,
+          "b": true,
+          "c": [
+            ""
+          ]
+        },
+        "expected": {
+          "a": true,
+          "b": true,
+          "c": []
+        },
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: true,\n    b: true,\n+   c: [\n+     ''\n+   ]\n-   c: []\n  }\n\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:206:12\n    at test (F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:18:36)\n    at F:\\Github-PR\\ci-evidence\\heartbeat1140-workflow\\yup2007-public-boundaries.cjs:202:9"
+      }
+    }
+  ]
+}

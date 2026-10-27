@@ -1,0 +1,16 @@
+{
+  "command": [
+    "E:/Nodejs/node.exe",
+    "E:/Nodejs/node_modules/corepack/dist/yarn.js",
+    "test"
+  ],
+  "returncode": 0,
+  "elapsedSeconds": 12.78642463684082,
+  "PATHPrefix": "E:/Git/Git/usr/bin",
+  "sourceSha256": {
+    "src/Condition.ts": "a4fa35ed1720306effca9b0fbbf50112dfc8fe95ff3cc76f9e0db11ce49da657",
+    "src/object.ts": "9c595d4522b73be6e807312b33bc9aa3be92aa93955c8dba3245949cf2d5aa92",
+    "src/util/siblingResolvers.ts": "06ad2fbfcd3d9c11d6f22e4d8d759ed696a29f84569bd8c19b563c31d1f75155",
+    "test/object-conditional.ts": "8b0bbb6679cadc2fce86d847fba9c1de508ee182e55d3b1231580e17f8d3ffa0"
+  }
+}

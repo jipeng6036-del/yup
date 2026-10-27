@@ -1,0 +1,297 @@
+
+⎯⎯⎯⎯⎯⎯ Failed Tests 30 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |async| test/object-conditional.ts > nested conditional casting > casts nested dependencies for field order abc and value true
+ FAIL  |async| test/object-conditional.ts > nested conditional casting > casts nested dependencies for field order abc and value true
+ FAIL  |async| test/object-conditional.ts > nested conditional casting > casts nested dependencies for field order abc and value 1
+ FAIL  |async| test/object-conditional.ts > nested conditional casting > casts nested dependencies for field order bac and value true
+ FAIL  |async| test/object-conditional.ts > nested conditional casting > casts nested dependencies for field order bac and value true
+ FAIL  |async| test/object-conditional.ts > nested conditional casting > casts nested dependencies for field order bac and value 1
+ FAIL  |async| test/object-conditional.ts > nested conditional casting > casts nested dependencies for field order bca and value true
+ FAIL  |async| test/object-conditional.ts > nested conditional casting > casts nested dependencies for field order bca and value true
+ FAIL  |async| test/object-conditional.ts > nested conditional casting > casts nested dependencies for field order bca and value 1
+AssertionError: expected [ '' ] to deeply equal []
+
+- Expected
++ Received
+
+- []
++ [
++   "",
++ ]
+
+ ❯ test/object-conditional.ts:30:54
+     28|         ),
+     29|       );
+     30|       expect(schema.cast({ a: true, b, c: [''] }).c).toEqual([]);
+       |                                                      ^
+     31|       await expect(schema.isValid({ a: true, b, c: [''] })).resolves.t…
+     32|         false,
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/30]⎯
+
+ FAIL  |async| test/object-conditional.ts > nested conditional casting > reads defaults before selecting a nested branch
+AssertionError: expected { a: true, c: [ '' ], b: true } to deeply equal { a: true, b: true, c: [] }
+
+- Expected
++ Received
+
+  {
+    "a": true,
+    "b": true,
+-   "c": [],
++   "c": [
++     "",
++   ],
+  }
+
+ ❯ test/object-conditional.ts:55:47
+     53|       }),
+     54|     });
+     55|     expect(schema.cast({ a: true, c: [''] })).toEqual({
+       |                                               ^
+     56|       a: true,
+     57|       b: true,
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/30]⎯
+
+ FAIL  |async| test/object-conditional.ts > nested conditional casting > casts each field once and keeps the same plain parent
+AssertionError: expected { a: true, c: [ '' ], b: 1 } to deeply equal { a: true, b: 1, c: [] }
+
+- Expected
++ Received
+
+  {
+    "a": true,
+    "b": 1,
+-   "c": [],
++   "c": [
++     "",
++   ],
+  }
+
+ ❯ test/object-conditional.ts:89:20
+     87|     });
+     88|     const result = schema.cast({ a: true, b: 0, c: [''] });
+     89|     expect(result).toEqual({ a: true, b: 1, c: [] });
+       |                    ^
+     90|     expect(bCalls).toBe(1);
+     91|     expect(cCalls).toBe(1);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/30]⎯
+
+ FAIL  |async| test/object-conditional.ts > nested conditional casting > resolves nested paths in lazy fields
+AssertionError: expected { c: [ '' ], …(2) } to deeply equal { Object (a, b, ...) }
+
+- Expected
++ Received
+
+  {
+    "a": true,
+    "b": {
+      "enabled": true,
+    },
+-   "c": [],
++   "c": [
++     "",
++   ],
+  }
+
+ ❯ test/object-conditional.ts:112:71
+    110|       ),
+    111|     });
+    112|     expect(schema.cast({ a: true, b: { enabled: 'true' }, c: [''] })).…
+       |                                                                       ^
+    113|       a: true,
+    114|       b: { enabled: true },
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/30]⎯
+
+ FAIL  |async| test/object-conditional.ts > nested conditional casting > rejects a dynamically discovered cycle
+AssertionError: expected [Function] to throw an error
+
+- Expected: 
+null
+
++ Received: 
+undefined
+
+ ❯ test/object-conditional.ts:131:58
+    129|       }),
+    130|     });
+    131|     expect(() => schema.cast({ a: true, b: [], c: [] })).toThrowError(
+       |                                                          ^
+    132|       'Cyclic dependency',
+    133|     );
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/30]⎯
+
+ FAIL  |async| test/object-conditional.ts > nested conditional casting > casts a sibling reference chain through d
+ FAIL  |async| test/object-conditional.ts > nested conditional casting > casts a sibling reference chain through d.enabled
+AssertionError: expected [ '' ] to deeply equal []
+
+- Expected
++ Received
+
+- []
++ [
++   "",
++ ]
+
+ ❯ test/object-conditional.ts:154:24
+    152|       const result = schema.cast({ a: true, c: [''] });
+    153|       expect(result.b).toBe(true);
+    154|       expect(result.c).toEqual([]);
+       |                        ^
+    155|     },
+    156|   );
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/30]⎯
+
+ FAIL  |sync| test/object-conditional.ts > nested conditional casting > casts nested dependencies for field order abc and value true
+ FAIL  |sync| test/object-conditional.ts > nested conditional casting > casts nested dependencies for field order abc and value true
+ FAIL  |sync| test/object-conditional.ts > nested conditional casting > casts nested dependencies for field order abc and value 1
+ FAIL  |sync| test/object-conditional.ts > nested conditional casting > casts nested dependencies for field order bac and value true
+ FAIL  |sync| test/object-conditional.ts > nested conditional casting > casts nested dependencies for field order bac and value true
+ FAIL  |sync| test/object-conditional.ts > nested conditional casting > casts nested dependencies for field order bac and value 1
+ FAIL  |sync| test/object-conditional.ts > nested conditional casting > casts nested dependencies for field order bca and value true
+ FAIL  |sync| test/object-conditional.ts > nested conditional casting > casts nested dependencies for field order bca and value true
+ FAIL  |sync| test/object-conditional.ts > nested conditional casting > casts nested dependencies for field order bca and value 1
+AssertionError: expected [ '' ] to deeply equal []
+
+- Expected
++ Received
+
+- []
++ [
++   "",
++ ]
+
+ ❯ test/object-conditional.ts:30:54
+     28|         ),
+     29|       );
+     30|       expect(schema.cast({ a: true, b, c: [''] }).c).toEqual([]);
+       |                                                      ^
+     31|       await expect(schema.isValid({ a: true, b, c: [''] })).resolves.t…
+     32|         false,
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/30]⎯
+
+ FAIL  |sync| test/object-conditional.ts > nested conditional casting > reads defaults before selecting a nested branch
+AssertionError: expected { a: true, c: [ '' ], b: true } to deeply equal { a: true, b: true, c: [] }
+
+- Expected
++ Received
+
+  {
+    "a": true,
+    "b": true,
+-   "c": [],
++   "c": [
++     "",
++   ],
+  }
+
+ ❯ test/object-conditional.ts:55:47
+     53|       }),
+     54|     });
+     55|     expect(schema.cast({ a: true, c: [''] })).toEqual({
+       |                                               ^
+     56|       a: true,
+     57|       b: true,
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/30]⎯
+
+ FAIL  |sync| test/object-conditional.ts > nested conditional casting > casts each field once and keeps the same plain parent
+AssertionError: expected { a: true, c: [ '' ], b: 1 } to deeply equal { a: true, b: 1, c: [] }
+
+- Expected
++ Received
+
+  {
+    "a": true,
+    "b": 1,
+-   "c": [],
++   "c": [
++     "",
++   ],
+  }
+
+ ❯ test/object-conditional.ts:89:20
+     87|     });
+     88|     const result = schema.cast({ a: true, b: 0, c: [''] });
+     89|     expect(result).toEqual({ a: true, b: 1, c: [] });
+       |                    ^
+     90|     expect(bCalls).toBe(1);
+     91|     expect(cCalls).toBe(1);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/30]⎯
+
+ FAIL  |sync| test/object-conditional.ts > nested conditional casting > resolves nested paths in lazy fields
+AssertionError: expected { c: [ '' ], …(2) } to deeply equal { Object (a, b, ...) }
+
+- Expected
++ Received
+
+  {
+    "a": true,
+    "b": {
+      "enabled": true,
+    },
+-   "c": [],
++   "c": [
++     "",
++   ],
+  }
+
+ ❯ test/object-conditional.ts:112:71
+    110|       ),
+    111|     });
+    112|     expect(schema.cast({ a: true, b: { enabled: 'true' }, c: [''] })).…
+       |                                                                       ^
+    113|       a: true,
+    114|       b: { enabled: true },
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[10/30]⎯
+
+ FAIL  |sync| test/object-conditional.ts > nested conditional casting > rejects a dynamically discovered cycle
+AssertionError: expected [Function] to throw an error
+
+- Expected: 
+null
+
++ Received: 
+undefined
+
+ ❯ test/object-conditional.ts:131:58
+    129|       }),
+    130|     });
+    131|     expect(() => schema.cast({ a: true, b: [], c: [] })).toThrowError(
+       |                                                          ^
+    132|       'Cyclic dependency',
+    133|     );
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[11/30]⎯
+
+ FAIL  |sync| test/object-conditional.ts > nested conditional casting > casts a sibling reference chain through d
+ FAIL  |sync| test/object-conditional.ts > nested conditional casting > casts a sibling reference chain through d.enabled
+AssertionError: expected [ '' ] to deeply equal []
+
+- Expected
++ Received
+
+- []
++ [
++   "",
++ ]
+
+ ❯ test/object-conditional.ts:154:24
+    152|       const result = schema.cast({ a: true, c: [''] });
+    153|       expect(result.b).toBe(true);
+    154|       expect(result.c).toEqual([]);
+       |                        ^
+    155|     },
+    156|   );
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[12/30]⎯
+

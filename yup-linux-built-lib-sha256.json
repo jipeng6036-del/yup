@@ -1,0 +1,12 @@
+{
+  "baseline": {
+    "index.js": "4d82d86f75cfdd5a17b3c72aa66ead691febaf3260e2b4cffdbf401fb3e2eacb",
+    "index.esm.js": "14679b6b262c8d59d05e7cd56e0eabe4ef359f0787c8ab92bdcdba1102d9bafc",
+    "index.d.ts": "3ea29ab1957aedc6ac0afae6175b5579abcd67cf6072853240edb9df9bc297c6"
+  },
+  "candidate": {
+    "index.js": "d8955a7aec316f0a4adbdece6842391f6a9a56502ddc910d5d85974f789794af",
+    "index.esm.js": "4fb1e7eca1f5fe8a87e8c5d9836a79ffb6a9a6414f54b35c54645a3290e16111",
+    "index.d.ts": "3ea29ab1957aedc6ac0afae6175b5579abcd67cf6072853240edb9df9bc297c6"
+  }
+}

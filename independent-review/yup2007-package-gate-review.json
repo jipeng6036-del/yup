@@ -1,0 +1,241 @@
+{
+  "atUtc": "2026-10-27T12:24:43.496152+00:00",
+  "conclusion": "PACKAGING_PROVENANCE_VERIFIED; additional Linux LTS completion not observed in this review snapshot",
+  "artifactScope": "Normal root npm pack from canonical repository root plus actual rollup-generated lib outputs, installed in independent consumers. This is NOT registry publication or proof of release.publishDir=lib rollout artifact layout.",
+  "variants": {
+    "baseline": {
+      "canonicalSourceFiles": 74,
+      "stageFiles": 77,
+      "tarFiles": 75,
+      "canonicalSourcesMatchStage": true,
+      "stageExtraOnlyRealLibOutputs": true,
+      "tarMatchesStageAndInstalledEveryByte": true,
+      "packageJsonExactCanonicalBytes": true,
+      "tgzSha256": "d8ef32240d54301bfc2b4727fceeb9d54e394e76dc4456b75d87060902b34b7f",
+      "tarIntegrityMatchesNpmPackAndConsumerLock": true,
+      "sourceHashes": {
+        "src/Condition.ts": "6c71b7bd98fb1d998ab4c1465649ebf45a6e2b2a8f76336b4bf64da36271437b",
+        "src/object.ts": "d9cca6d067af5244fbfc2dbe0e90b622884100b3d7a51370cc1438a76ed90ba6"
+      },
+      "libHashes": {
+        "lib/index.esm.js": "92cfe08bb1299737beddcd29357729cf5b43939c4e20526605af5fb9a004a39e",
+        "lib/index.js": "7cf6db6d7fc3e460eb5427ca120934efedc79b8233b7bc90d6c91299ced40ed0",
+        "lib/index.d.ts": "1db71aec9c5f6900e71d206a83fca838cbe513e72ce84e54d7997f4231a1fd27"
+      },
+      "publicResults": {
+        "Windows": {
+          "node": "v24.14.0",
+          "publicRows": 108,
+          "validationMismatches": 9,
+          "rawLog": "yup-baseline-installed-runtime.json",
+          "rawSha256": "5951f5c31fa56a0362edf93042963e9b44eece0f089aa3b1015eb20b93e28025"
+        },
+        "Linux": {
+          "node": "v24.22.1",
+          "publicRows": 108,
+          "validationMismatches": 9,
+          "rawLog": "yup-linux-accepted-baseline-consumer.stdout.raw",
+          "rawSha256": "248c43856bf33550023d0bd607a0ddf415a6a26fc79b15dcdba3cde4d60504ab"
+        }
+      },
+      "linuxRebuildBridge": {
+        "index.js": {
+          "windowsRawSha256": "7cf6db6d7fc3e460eb5427ca120934efedc79b8233b7bc90d6c91299ced40ed0",
+          "linuxRawSha256": "4d82d86f75cfdd5a17b3c72aa66ead691febaf3260e2b4cffdbf401fb3e2eacb",
+          "rawEqual": false,
+          "onlyCRLFDifference": true
+        },
+        "index.esm.js": {
+          "windowsRawSha256": "92cfe08bb1299737beddcd29357729cf5b43939c4e20526605af5fb9a004a39e",
+          "linuxRawSha256": "14679b6b262c8d59d05e7cd56e0eabe4ef359f0787c8ab92bdcdba1102d9bafc",
+          "rawEqual": false,
+          "onlyCRLFDifference": true
+        },
+        "index.d.ts": {
+          "windowsRawSha256": "1db71aec9c5f6900e71d206a83fca838cbe513e72ce84e54d7997f4231a1fd27",
+          "linuxRawSha256": "3ea29ab1957aedc6ac0afae6175b5579abcd67cf6072853240edb9df9bc297c6",
+          "rawEqual": false,
+          "onlyCRLFDifference": true
+        }
+      }
+    },
+    "candidate": {
+      "canonicalSourceFiles": 76,
+      "stageFiles": 79,
+      "tarFiles": 77,
+      "canonicalSourcesMatchStage": true,
+      "stageExtraOnlyRealLibOutputs": true,
+      "tarMatchesStageAndInstalledEveryByte": true,
+      "packageJsonExactCanonicalBytes": true,
+      "tgzSha256": "ce8316b1da77aa50d97f552c13a85da46f4991ca18fe92e82e13fe4a7f4c231a",
+      "tarIntegrityMatchesNpmPackAndConsumerLock": true,
+      "sourceHashes": {
+        "src/Condition.ts": "a4fa35ed1720306effca9b0fbbf50112dfc8fe95ff3cc76f9e0db11ce49da657",
+        "src/object.ts": "9c595d4522b73be6e807312b33bc9aa3be92aa93955c8dba3245949cf2d5aa92",
+        "src/util/siblingResolvers.ts": "06ad2fbfcd3d9c11d6f22e4d8d759ed696a29f84569bd8c19b563c31d1f75155",
+        "test/object-conditional.ts": "8b0bbb6679cadc2fce86d847fba9c1de508ee182e55d3b1231580e17f8d3ffa0"
+      },
+      "libHashes": {
+        "lib/index.esm.js": "be1d902155f3af74cb0be6faf67ee2d4ddd2450ec5547da1947a69d3f7603479",
+        "lib/index.js": "8fcf65780e7b16a8cb06801977206bd2b2fdd56c36062e3a05429ca716a0d853",
+        "lib/index.d.ts": "1db71aec9c5f6900e71d206a83fca838cbe513e72ce84e54d7997f4231a1fd27"
+      },
+      "publicResults": {
+        "Windows": {
+          "node": "v24.14.0",
+          "publicRows": 108,
+          "validationMismatches": 0,
+          "rawLog": "yup-candidate-installed-runtime.json",
+          "rawSha256": "c2b179cce05ae28dedded480f9aca9a47684539f657f60a22d2bb33eff9141df"
+        },
+        "Linux": {
+          "node": "v24.22.1",
+          "publicRows": 108,
+          "validationMismatches": 0,
+          "rawLog": "yup-linux-accepted-candidate-consumer.stdout.raw",
+          "rawSha256": "be124f1458c6176482d54a5ea15e67a24fa13f1aecd81b0fe1ea06a4b9d84aa0"
+        }
+      },
+      "linuxRebuildBridge": {
+        "index.js": {
+          "windowsRawSha256": "8fcf65780e7b16a8cb06801977206bd2b2fdd56c36062e3a05429ca716a0d853",
+          "linuxRawSha256": "d8955a7aec316f0a4adbdece6842391f6a9a56502ddc910d5d85974f789794af",
+          "rawEqual": false,
+          "onlyCRLFDifference": true
+        },
+        "index.esm.js": {
+          "windowsRawSha256": "be1d902155f3af74cb0be6faf67ee2d4ddd2450ec5547da1947a69d3f7603479",
+          "linuxRawSha256": "4fb1e7eca1f5fe8a87e8c5d9836a79ffb6a9a6414f54b35c54645a3290e16111",
+          "rawEqual": false,
+          "onlyCRLFDifference": true
+        },
+        "index.d.ts": {
+          "windowsRawSha256": "1db71aec9c5f6900e71d206a83fca838cbe513e72ce84e54d7997f4231a1fd27",
+          "linuxRawSha256": "3ea29ab1957aedc6ac0afae6175b5579abcd67cf6072853240edb9df9bc297c6",
+          "rawEqual": false,
+          "onlyCRLFDifference": true
+        }
+      }
+    }
+  },
+  "gateProvenance": {
+    "Windows": {
+      "acceptedReceipt": "yup-accepted-windows-checks.json",
+      "acceptedReceiptSha256": "843da26512f6343091974f502d760699eb70bbcf8cbb830479ba0534fa9ee2d7",
+      "all5ChecksExit0": true,
+      "sourceBeforeAfterAndEachCheckBound": {
+        "src/Condition.ts": "a4fa35ed1720306effca9b0fbbf50112dfc8fe95ff3cc76f9e0db11ce49da657",
+        "src/object.ts": "9c595d4522b73be6e807312b33bc9aa3be92aa93955c8dba3245949cf2d5aa92",
+        "src/util/siblingResolvers.ts": "06ad2fbfcd3d9c11d6f22e4d8d759ed696a29f84569bd8c19b563c31d1f75155",
+        "test/object-conditional.ts": "8b0bbb6679cadc2fce86d847fba9c1de508ee182e55d3b1231580e17f8d3ffa0"
+      },
+      "fullSuite": "923 passed / 2 skipped, 30 dual-mode testfiles, 28 new regressions per mode",
+      "oldLogsNotFinal": "yup-final-test.stdout.raw is 919/26-regression pre-failure-memoization version, not re-labeled"
+    },
+    "LinuxAccepted": {
+      "commandsScript": "yup-linux-accepted-checks.sh",
+      "node": "v24.22.1",
+      "completedChecks": [
+        "yup-linux-accepted-baseline-install.json",
+        "yup-linux-accepted-baseline-node.json",
+        "yup-linux-accepted-baseline-test.json",
+        "yup-linux-accepted-baseline-source-types.json",
+        "yup-linux-accepted-baseline-test-types.json",
+        "yup-linux-accepted-baseline-build.json",
+        "yup-linux-accepted-baseline-consumer-install.json",
+        "yup-linux-accepted-baseline-consumer.json",
+        "yup-linux-accepted-candidate-install.json",
+        "yup-linux-accepted-candidate-node.json",
+        "yup-linux-accepted-candidate-test.json",
+        "yup-linux-accepted-candidate-source-types.json",
+        "yup-linux-accepted-candidate-test-types.json",
+        "yup-linux-accepted-candidate-build.json",
+        "yup-linux-accepted-candidate-consumer-install.json",
+        "yup-linux-accepted-candidate-consumer.json",
+        "yup-linux-accepted-candidate-format.json"
+      ],
+      "sourceBeforeAndAfter": "74 baseline /76 candidate all canonical hashes matched",
+      "fullSuites": "baseline867PASS2SKIP; candidate923PASS2SKIP",
+      "packageScope": "same Windows-built tgz consumed on Linux; separately Linux rebuilt lib differs only CRLF as checked above",
+      "README": "script preserves before/after raw build-toctext and restores only own generated README before final source equality check"
+    },
+    "LinuxLTS": {
+      "status": "PENDING_NOT_CLAIMED",
+      "observed": "No completed LTS suite/type/build/consumer receipts in this snapshot. Old lts-runtime-version.raw is empty, cannot count as PASS. JS is still handling this lane; no reruns requested by reviewer."
+    }
+  },
+  "sourceOrSharedEvidenceEdits": 0,
+  "networkCalls": 0,
+  "installs": 0,
+  "fullSuiteReruns": 0,
+  "candidateIndexAndRawBridge": {
+    "indexFiles": 76,
+    "allModesAndBlobsEqualCanonicalManifest": true,
+    "currentRawFilesEqualManifestRawSha256": true
+  },
+  "candidateWindowsBuildLibMatchesCheckout": true,
+  "independentMinimalBareRequireProof": {
+    "scope": "two original-reporter casts/validations only; no repeated full suite or install",
+    "script": "const path=require('node:path'),fs=require('node:fs'),crypto=require('node:crypto'),createRequire=require('node:module').createRequire;const consumer=process.argv[1],req=createRequire(path.join(consumer,'package.json')),yup=req('yup');const source={a:true,b:true,c:['']};const raw=JSON.stringify(source);const schema=yup.object({a:yup.boolean(),b:yup.boolean(),c:yup.array().when('a',{is:true,then:s=>s.when('b',{is:true,then:s=>s.compact().min(1)})})});(async()=>{let cast=schema.cast(source),valid=await schema.isValid(source);console.log(JSON.stringify({node:process.version,entry:req.resolve('yup'),entrySha256:crypto.createHash('sha256').update(fs.readFileSync(req.resolve('yup'))).digest('hex'),input:source,inputSerialized:raw,inputSha256:crypto.createHash('sha256').update(raw).digest('hex'),inputUnchanged:JSON.stringify(source)===raw,cast,valid}))})().catch(e=>{console.error(e);process.exitCode=1})",
+    "rows": [
+      {
+        "variant": "baseline",
+        "command": "E:/Nodejs/node.exe -e <recorded script> <consumer-dir>",
+        "stdoutUtf8": "{\"node\":\"v24.14.0\",\"entry\":\"F:\\\\Github-PR\\\\ci-evidence\\\\heartbeat1140-js\\\\baseline-consumer\\\\node_modules\\\\yup\\\\lib\\\\index.js\",\"entrySha256\":\"7cf6db6d7fc3e460eb5427ca120934efedc79b8233b7bc90d6c91299ced40ed0\",\"input\":{\"a\":true,\"b\":true,\"c\":[\"\"]},\"inputSerialized\":\"{\\\"a\\\":true,\\\"b\\\":true,\\\"c\\\":[\\\"\\\"]}\",\"inputSha256\":\"db4020f99b40a71f4bed05fa55169b314148805b7de983f464841bbbda213873\",\"inputUnchanged\":true,\"cast\":{\"a\":true,\"b\":true,\"c\":[\"\"]},\"valid\":true}\n",
+        "stdoutSha256": "c40308b78345de1284ddd3ab22b175a00d98ff17491d0342984375c80be199ed",
+        "stderrBytes": 0,
+        "actual": {
+          "node": "v24.14.0",
+          "entry": "F:\\Github-PR\\ci-evidence\\heartbeat1140-js\\baseline-consumer\\node_modules\\yup\\lib\\index.js",
+          "entrySha256": "7cf6db6d7fc3e460eb5427ca120934efedc79b8233b7bc90d6c91299ced40ed0",
+          "input": {
+            "a": true,
+            "b": true,
+            "c": [
+              ""
+            ]
+          },
+          "inputSerialized": "{\"a\":true,\"b\":true,\"c\":[\"\"]}",
+          "inputSha256": "db4020f99b40a71f4bed05fa55169b314148805b7de983f464841bbbda213873",
+          "inputUnchanged": true,
+          "cast": {
+            "a": true,
+            "b": true,
+            "c": [
+              ""
+            ]
+          },
+          "valid": true
+        }
+      },
+      {
+        "variant": "candidate",
+        "command": "E:/Nodejs/node.exe -e <recorded script> <consumer-dir>",
+        "stdoutUtf8": "{\"node\":\"v24.14.0\",\"entry\":\"F:\\\\Github-PR\\\\ci-evidence\\\\heartbeat1140-js\\\\candidate-consumer\\\\node_modules\\\\yup\\\\lib\\\\index.js\",\"entrySha256\":\"8fcf65780e7b16a8cb06801977206bd2b2fdd56c36062e3a05429ca716a0d853\",\"input\":{\"a\":true,\"b\":true,\"c\":[\"\"]},\"inputSerialized\":\"{\\\"a\\\":true,\\\"b\\\":true,\\\"c\\\":[\\\"\\\"]}\",\"inputSha256\":\"db4020f99b40a71f4bed05fa55169b314148805b7de983f464841bbbda213873\",\"inputUnchanged\":true,\"cast\":{\"a\":true,\"b\":true,\"c\":[]},\"valid\":false}\n",
+        "stdoutSha256": "26eee7576974b04a68524f3cf36ae383b8285adb9abd54638b92927552ea37be",
+        "stderrBytes": 0,
+        "actual": {
+          "node": "v24.14.0",
+          "entry": "F:\\Github-PR\\ci-evidence\\heartbeat1140-js\\candidate-consumer\\node_modules\\yup\\lib\\index.js",
+          "entrySha256": "8fcf65780e7b16a8cb06801977206bd2b2fdd56c36062e3a05429ca716a0d853",
+          "input": {
+            "a": true,
+            "b": true,
+            "c": [
+              ""
+            ]
+          },
+          "inputSerialized": "{\"a\":true,\"b\":true,\"c\":[\"\"]}",
+          "inputSha256": "db4020f99b40a71f4bed05fa55169b314148805b7de983f464841bbbda213873",
+          "inputUnchanged": true,
+          "cast": {
+            "a": true,
+            "b": true,
+            "c": []
+          },
+          "valid": false
+        }
+      }
+    ]
+  }
+}

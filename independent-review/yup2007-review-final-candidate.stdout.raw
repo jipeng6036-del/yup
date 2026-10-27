@@ -1,0 +1,275 @@
+{
+  "mode": "candidate",
+  "node": "v24.14.0",
+  "pass": 24,
+  "fail": 0,
+  "rows": [
+    {
+      "name": "reference alias casts prerequisite and preserves public field",
+      "status": "PASS",
+      "value": {
+        "a": true,
+        "d": true,
+        "b": true,
+        "c": []
+      }
+    },
+    {
+      "name": "reference alias nested path preserves transformed child",
+      "status": "PASS",
+      "value": {
+        "a": true,
+        "d": {
+          "enabled": true
+        },
+        "b": true,
+        "c": []
+      }
+    },
+    {
+      "name": "reference alias chained prerequisites",
+      "status": "PASS",
+      "value": {
+        "a": true,
+        "e": true,
+        "d": true,
+        "b": true,
+        "c": []
+      }
+    },
+    {
+      "name": "reference alias map receives casted dependency once",
+      "status": "PASS",
+      "value": {
+        "a": true,
+        "d": 1,
+        "b": true,
+        "c": []
+      }
+    },
+    {
+      "name": "reference-mediated dynamic cycle diagnosed",
+      "status": "PASS",
+      "value": true
+    },
+    {
+      "name": "inactive reference cycle remains inactive",
+      "status": "PASS",
+      "value": {
+        "a": false,
+        "c": [
+          ""
+        ],
+        "b": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "reference exclusion preserves baseline suppressed dependency",
+      "status": "PASS",
+      "value": {
+        "a": true,
+        "c": [
+          ""
+        ],
+        "d": true
+      }
+    },
+    {
+      "name": "dynamic cycle exclusion respects edge owner",
+      "status": "PASS",
+      "value": true
+    },
+    {
+      "name": "nested object registries isolated in arrays",
+      "status": "PASS",
+      "value": {
+        "items": [
+          {
+            "a": true,
+            "b": false,
+            "c": [
+              ""
+            ]
+          },
+          {
+            "a": true,
+            "b": true,
+            "c": []
+          }
+        ],
+        "a": true,
+        "b": true,
+        "c": []
+      }
+    },
+    {
+      "name": "successful cast clears weak registry",
+      "status": "PASS",
+      "value": 1
+    },
+    {
+      "name": "exception clears weak registry without casting skipped sibling",
+      "status": "PASS",
+      "value": 0
+    },
+    {
+      "name": "strict nested field remains uncoerced on validation",
+      "status": "PASS",
+      "value": true
+    },
+    {
+      "name": "strict object validation does not invoke transforms",
+      "status": "PASS",
+      "value": {
+        "a": true,
+        "b": true,
+        "c": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "dependency type failure path belongs to dependency",
+      "status": "PASS",
+      "value": true
+    },
+    {
+      "name": "parent remains same plain object and unknown keys hidden by strip",
+      "status": "PASS",
+      "value": true
+    },
+    {
+      "name": "caught dependency failure remains terminal and same identity 0",
+      "status": "PASS",
+      "value": {
+        "calls": 1,
+        "caught": 1,
+        "threw": true,
+        "identity": true,
+        "kind": "undefined"
+      }
+    },
+    {
+      "name": "caught dependency failure remains terminal and same identity 1",
+      "status": "PASS",
+      "value": {
+        "calls": 1,
+        "caught": 1,
+        "threw": true,
+        "identity": true,
+        "kind": "null"
+      }
+    },
+    {
+      "name": "caught dependency failure remains terminal and same identity 2",
+      "status": "PASS",
+      "value": {
+        "calls": 1,
+        "caught": 1,
+        "threw": true,
+        "identity": true,
+        "kind": "number"
+      }
+    },
+    {
+      "name": "caught dependency failure remains terminal and same identity 3",
+      "status": "PASS",
+      "value": {
+        "calls": 1,
+        "caught": 1,
+        "threw": true,
+        "identity": true,
+        "kind": "string"
+      }
+    },
+    {
+      "name": "caught dependency failure remains terminal and same identity 4",
+      "status": "PASS",
+      "value": {
+        "calls": 1,
+        "caught": 1,
+        "threw": true,
+        "identity": true,
+        "kind": "boolean"
+      }
+    },
+    {
+      "name": "caught dependency failure remains terminal and same identity 5",
+      "status": "PASS",
+      "value": {
+        "calls": 1,
+        "caught": 1,
+        "threw": true,
+        "identity": true,
+        "kind": "string"
+      }
+    },
+    {
+      "name": "caught dependency failure remains terminal and same identity 6",
+      "status": "PASS",
+      "value": {
+        "calls": 1,
+        "caught": 1,
+        "threw": true,
+        "identity": true,
+        "kind": "object"
+      }
+    },
+    {
+      "name": "caught dependency failure remains terminal and same identity 7",
+      "status": "PASS",
+      "value": {
+        "calls": 1,
+        "caught": 1,
+        "threw": true,
+        "identity": true,
+        "kind": "object"
+      }
+    },
+    {
+      "name": "static callback ordering and unchanged identity",
+      "status": "PASS",
+      "value": [
+        [
+          "a",
+          "transform",
+          "a"
+        ],
+        [
+          "b",
+          "condition",
+          [
+            true
+          ],
+          [
+            "a"
+          ]
+        ],
+        [
+          "b",
+          "transform",
+          "b"
+        ],
+        [
+          "c",
+          "condition",
+          [
+            true,
+            true
+          ],
+          [
+            "a",
+            "b"
+          ]
+        ],
+        [
+          "c",
+          "transform",
+          "c"
+        ]
+      ]
+    }
+  ]
+}

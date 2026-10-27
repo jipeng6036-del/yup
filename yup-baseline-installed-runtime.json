@@ -1,0 +1,2184 @@
+{
+  "node": "v24.14.0",
+  "sourceRoot": "F:\\Github-PR\\ci-evidence\\heartbeat1140-js\\baseline-consumer",
+  "rows": [
+    {
+      "fields": "abc",
+      "compactAt": "inner",
+      "b": true,
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "b": true,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "abc",
+      "compactAt": "inner",
+      "b": "true",
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [
+          ""
+        ],
+        "b": true
+      },
+      "valid": true
+    },
+    {
+      "fields": "abc",
+      "compactAt": "inner",
+      "b": 1,
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [
+          ""
+        ],
+        "b": true
+      },
+      "valid": true
+    },
+    {
+      "fields": "abc",
+      "compactAt": "inner",
+      "b": false,
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "b": false,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "abc",
+      "compactAt": "inner",
+      "b": "false",
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [
+          ""
+        ],
+        "b": false
+      },
+      "valid": true
+    },
+    {
+      "fields": "abc",
+      "compactAt": "inner",
+      "b": 0,
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [
+          ""
+        ],
+        "b": false
+      },
+      "valid": true
+    },
+    {
+      "fields": "abc",
+      "compactAt": "outer",
+      "b": true,
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [],
+        "b": true
+      },
+      "valid": false
+    },
+    {
+      "fields": "abc",
+      "compactAt": "outer",
+      "b": "true",
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [],
+        "b": true
+      },
+      "valid": false
+    },
+    {
+      "fields": "abc",
+      "compactAt": "outer",
+      "b": 1,
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [],
+        "b": true
+      },
+      "valid": false
+    },
+    {
+      "fields": "abc",
+      "compactAt": "outer",
+      "b": false,
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [],
+        "b": false
+      },
+      "valid": true
+    },
+    {
+      "fields": "abc",
+      "compactAt": "outer",
+      "b": "false",
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [],
+        "b": false
+      },
+      "valid": true
+    },
+    {
+      "fields": "abc",
+      "compactAt": "outer",
+      "b": 0,
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [],
+        "b": false
+      },
+      "valid": true
+    },
+    {
+      "fields": "abc",
+      "compactAt": "declaredDependencies",
+      "b": true,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "abc",
+      "compactAt": "declaredDependencies",
+      "b": "true",
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "abc",
+      "compactAt": "declaredDependencies",
+      "b": 1,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "abc",
+      "compactAt": "declaredDependencies",
+      "b": false,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "a": true,
+        "b": false,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "abc",
+      "compactAt": "declaredDependencies",
+      "b": "false",
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "abc",
+      "compactAt": "declaredDependencies",
+      "b": 0,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "acb",
+      "compactAt": "inner",
+      "b": true,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "acb",
+      "compactAt": "inner",
+      "b": "true",
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "acb",
+      "compactAt": "inner",
+      "b": 1,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "acb",
+      "compactAt": "inner",
+      "b": false,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "b": false,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "acb",
+      "compactAt": "inner",
+      "b": "false",
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "acb",
+      "compactAt": "inner",
+      "b": 0,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "acb",
+      "compactAt": "outer",
+      "b": true,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "acb",
+      "compactAt": "outer",
+      "b": "true",
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "acb",
+      "compactAt": "outer",
+      "b": 1,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "acb",
+      "compactAt": "outer",
+      "b": false,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": []
+      },
+      "valid": true
+    },
+    {
+      "fields": "acb",
+      "compactAt": "outer",
+      "b": "false",
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": []
+      },
+      "valid": true
+    },
+    {
+      "fields": "acb",
+      "compactAt": "outer",
+      "b": 0,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": []
+      },
+      "valid": true
+    },
+    {
+      "fields": "acb",
+      "compactAt": "declaredDependencies",
+      "b": true,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "acb",
+      "compactAt": "declaredDependencies",
+      "b": "true",
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "acb",
+      "compactAt": "declaredDependencies",
+      "b": 1,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "acb",
+      "compactAt": "declaredDependencies",
+      "b": false,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "a": true,
+        "b": false,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "acb",
+      "compactAt": "declaredDependencies",
+      "b": "false",
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "acb",
+      "compactAt": "declaredDependencies",
+      "b": 0,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "bac",
+      "compactAt": "inner",
+      "b": true,
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "b": true,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "bac",
+      "compactAt": "inner",
+      "b": "true",
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [
+          ""
+        ],
+        "b": true
+      },
+      "valid": true
+    },
+    {
+      "fields": "bac",
+      "compactAt": "inner",
+      "b": 1,
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [
+          ""
+        ],
+        "b": true
+      },
+      "valid": true
+    },
+    {
+      "fields": "bac",
+      "compactAt": "inner",
+      "b": false,
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "b": false,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "bac",
+      "compactAt": "inner",
+      "b": "false",
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [
+          ""
+        ],
+        "b": false
+      },
+      "valid": true
+    },
+    {
+      "fields": "bac",
+      "compactAt": "inner",
+      "b": 0,
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [
+          ""
+        ],
+        "b": false
+      },
+      "valid": true
+    },
+    {
+      "fields": "bac",
+      "compactAt": "outer",
+      "b": true,
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [],
+        "b": true
+      },
+      "valid": false
+    },
+    {
+      "fields": "bac",
+      "compactAt": "outer",
+      "b": "true",
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [],
+        "b": true
+      },
+      "valid": false
+    },
+    {
+      "fields": "bac",
+      "compactAt": "outer",
+      "b": 1,
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [],
+        "b": true
+      },
+      "valid": false
+    },
+    {
+      "fields": "bac",
+      "compactAt": "outer",
+      "b": false,
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [],
+        "b": false
+      },
+      "valid": true
+    },
+    {
+      "fields": "bac",
+      "compactAt": "outer",
+      "b": "false",
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [],
+        "b": false
+      },
+      "valid": true
+    },
+    {
+      "fields": "bac",
+      "compactAt": "outer",
+      "b": 0,
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [],
+        "b": false
+      },
+      "valid": true
+    },
+    {
+      "fields": "bac",
+      "compactAt": "declaredDependencies",
+      "b": true,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "bac",
+      "compactAt": "declaredDependencies",
+      "b": "true",
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "bac",
+      "compactAt": "declaredDependencies",
+      "b": 1,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "bac",
+      "compactAt": "declaredDependencies",
+      "b": false,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "a": true,
+        "b": false,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "bac",
+      "compactAt": "declaredDependencies",
+      "b": "false",
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "bac",
+      "compactAt": "declaredDependencies",
+      "b": 0,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "bca",
+      "compactAt": "inner",
+      "b": true,
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "b": true,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "bca",
+      "compactAt": "inner",
+      "b": "true",
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [
+          ""
+        ],
+        "b": true
+      },
+      "valid": true
+    },
+    {
+      "fields": "bca",
+      "compactAt": "inner",
+      "b": 1,
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [
+          ""
+        ],
+        "b": true
+      },
+      "valid": true
+    },
+    {
+      "fields": "bca",
+      "compactAt": "inner",
+      "b": false,
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "b": false,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "bca",
+      "compactAt": "inner",
+      "b": "false",
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [
+          ""
+        ],
+        "b": false
+      },
+      "valid": true
+    },
+    {
+      "fields": "bca",
+      "compactAt": "inner",
+      "b": 0,
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [
+          ""
+        ],
+        "b": false
+      },
+      "valid": true
+    },
+    {
+      "fields": "bca",
+      "compactAt": "outer",
+      "b": true,
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [],
+        "b": true
+      },
+      "valid": false
+    },
+    {
+      "fields": "bca",
+      "compactAt": "outer",
+      "b": "true",
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [],
+        "b": true
+      },
+      "valid": false
+    },
+    {
+      "fields": "bca",
+      "compactAt": "outer",
+      "b": 1,
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [],
+        "b": true
+      },
+      "valid": false
+    },
+    {
+      "fields": "bca",
+      "compactAt": "outer",
+      "b": false,
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [],
+        "b": false
+      },
+      "valid": true
+    },
+    {
+      "fields": "bca",
+      "compactAt": "outer",
+      "b": "false",
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [],
+        "b": false
+      },
+      "valid": true
+    },
+    {
+      "fields": "bca",
+      "compactAt": "outer",
+      "b": 0,
+      "nodes": [
+        "a",
+        "c",
+        "b"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "c": [],
+        "b": false
+      },
+      "valid": true
+    },
+    {
+      "fields": "bca",
+      "compactAt": "declaredDependencies",
+      "b": true,
+      "nodes": [
+        "a",
+        "b",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "a": true,
+        "b": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "bca",
+      "compactAt": "declaredDependencies",
+      "b": "true",
+      "nodes": [
+        "a",
+        "b",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "a": true,
+        "b": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "bca",
+      "compactAt": "declaredDependencies",
+      "b": 1,
+      "nodes": [
+        "a",
+        "b",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "a": true,
+        "b": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "bca",
+      "compactAt": "declaredDependencies",
+      "b": false,
+      "nodes": [
+        "a",
+        "b",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "a": true,
+        "b": false,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "bca",
+      "compactAt": "declaredDependencies",
+      "b": "false",
+      "nodes": [
+        "a",
+        "b",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "a": true,
+        "b": false,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "bca",
+      "compactAt": "declaredDependencies",
+      "b": 0,
+      "nodes": [
+        "a",
+        "b",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "a": true,
+        "b": false,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "cab",
+      "compactAt": "inner",
+      "b": true,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "cab",
+      "compactAt": "inner",
+      "b": "true",
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "cab",
+      "compactAt": "inner",
+      "b": 1,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "cab",
+      "compactAt": "inner",
+      "b": false,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "b": false,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "cab",
+      "compactAt": "inner",
+      "b": "false",
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "cab",
+      "compactAt": "inner",
+      "b": 0,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "cab",
+      "compactAt": "outer",
+      "b": true,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "cab",
+      "compactAt": "outer",
+      "b": "true",
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "cab",
+      "compactAt": "outer",
+      "b": 1,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "cab",
+      "compactAt": "outer",
+      "b": false,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": []
+      },
+      "valid": true
+    },
+    {
+      "fields": "cab",
+      "compactAt": "outer",
+      "b": "false",
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": []
+      },
+      "valid": true
+    },
+    {
+      "fields": "cab",
+      "compactAt": "outer",
+      "b": 0,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": []
+      },
+      "valid": true
+    },
+    {
+      "fields": "cab",
+      "compactAt": "declaredDependencies",
+      "b": true,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "cab",
+      "compactAt": "declaredDependencies",
+      "b": "true",
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "cab",
+      "compactAt": "declaredDependencies",
+      "b": 1,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "cab",
+      "compactAt": "declaredDependencies",
+      "b": false,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "a": true,
+        "b": false,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "cab",
+      "compactAt": "declaredDependencies",
+      "b": "false",
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "cab",
+      "compactAt": "declaredDependencies",
+      "b": 0,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "cba",
+      "compactAt": "inner",
+      "b": true,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "cba",
+      "compactAt": "inner",
+      "b": "true",
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "cba",
+      "compactAt": "inner",
+      "b": 1,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "cba",
+      "compactAt": "inner",
+      "b": false,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "a": true,
+        "b": false,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "cba",
+      "compactAt": "inner",
+      "b": "false",
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "cba",
+      "compactAt": "inner",
+      "b": 0,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "cba",
+      "compactAt": "outer",
+      "b": true,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "cba",
+      "compactAt": "outer",
+      "b": "true",
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "cba",
+      "compactAt": "outer",
+      "b": 1,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "cba",
+      "compactAt": "outer",
+      "b": false,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": []
+      },
+      "valid": true
+    },
+    {
+      "fields": "cba",
+      "compactAt": "outer",
+      "b": "false",
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": []
+      },
+      "valid": true
+    },
+    {
+      "fields": "cba",
+      "compactAt": "outer",
+      "b": 0,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": []
+      },
+      "valid": true
+    },
+    {
+      "fields": "cba",
+      "compactAt": "declaredDependencies",
+      "b": true,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "cba",
+      "compactAt": "declaredDependencies",
+      "b": "true",
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "cba",
+      "compactAt": "declaredDependencies",
+      "b": 1,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": true,
+        "a": true,
+        "c": []
+      },
+      "valid": false
+    },
+    {
+      "fields": "cba",
+      "compactAt": "declaredDependencies",
+      "b": false,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "a": true,
+        "b": false,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "cba",
+      "compactAt": "declaredDependencies",
+      "b": "false",
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    },
+    {
+      "fields": "cba",
+      "compactAt": "declaredDependencies",
+      "b": 0,
+      "nodes": [
+        "b",
+        "a",
+        "c"
+      ],
+      "deps": [
+        "a",
+        "b"
+      ],
+      "cast": {
+        "b": false,
+        "a": true,
+        "c": [
+          ""
+        ]
+      },
+      "valid": true
+    }
+  ]
+}

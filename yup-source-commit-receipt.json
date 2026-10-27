@@ -1,0 +1,14 @@
+{
+  "command": [
+    "git",
+    "commit",
+    "-m",
+    "fix: cast sibling dependencies introduced by nested conditions"
+  ],
+  "returncode": 0,
+  "head": "eccdf8d138f60024787ffce9aa7dd27c50ccbfbf",
+  "tree": "47dd7c257d8c66b7ea145b0a4106b78f38774843",
+  "parent": "ff31eee8a2b10c938bb3a22544d9e33957a8cf01",
+  "statusPorcelain": "",
+  "localMetadataOnly": "Ignored own generated .yarn/install-state.gz via local .git/info/exclude; not a product/source change."
+}

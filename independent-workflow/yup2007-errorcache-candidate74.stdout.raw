@@ -1,0 +1,752 @@
+{
+  "node": "v24.14.0",
+  "root": "F:\\Github-PR\\inspection\\heartbeat1140-js-yup",
+  "mode": "source",
+  "entry": "F:\\Github-PR\\inspection\\heartbeat1140-js-yup\\src\\index.ts",
+  "entrySha256": "9ac09fe0b3a686cad5bc2f06c782dfc8f104bd7cc6c8f87862cce4a9aa68f180",
+  "counts": {
+    "total": 74,
+    "pass": 74,
+    "fail": 0
+  },
+  "rows": [
+    {
+      "name": "permutation/abc/b=true",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/abc/b=\"true\"",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/abc/b=1",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/abc/b=false",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": false,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/abc/b=\"false\"",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": false,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/abc/b=0",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": false,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/acb/b=true",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": true,
+          "a": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/acb/b=\"true\"",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": true,
+          "a": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/acb/b=1",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": true,
+          "a": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/acb/b=false",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": false,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/acb/b=\"false\"",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": false,
+          "a": true,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/acb/b=0",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": false,
+          "a": true,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/bac/b=true",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/bac/b=\"true\"",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/bac/b=1",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/bac/b=false",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": false,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/bac/b=\"false\"",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": false,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/bac/b=0",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": false,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/bca/b=true",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/bca/b=\"true\"",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/bca/b=1",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/bca/b=false",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": false,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/bca/b=\"false\"",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": false,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/bca/b=0",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": false,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/cab/b=true",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": true,
+          "a": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/cab/b=\"true\"",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": true,
+          "a": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/cab/b=1",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": true,
+          "a": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/cab/b=false",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": false,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/cab/b=\"false\"",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": false,
+          "a": true,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/cab/b=0",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": false,
+          "a": true,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/cba/b=true",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": true,
+          "a": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/cba/b=\"true\"",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": true,
+          "a": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/cba/b=1",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": true,
+          "a": true,
+          "c": []
+        },
+        "valid": false
+      }
+    },
+    {
+      "name": "permutation/cba/b=false",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "a": true,
+          "b": false,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/cba/b=\"false\"",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": false,
+          "a": true,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "permutation/cba/b=0",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "cast": {
+          "b": false,
+          "a": true,
+          "c": [
+            ""
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "default-true-sibling",
+      "expectedToChange": true,
+      "status": "PASS"
+    },
+    {
+      "name": "strip-sibling-remains-absent",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "strict-object-intentionally-skips-transforms",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "strict-field-keeps-raw-boolean-for-validation",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "cast-ignores-field-strict-as-before",
+      "expectedToChange": true,
+      "status": "PASS"
+    },
+    {
+      "name": "nested-dotpath-default-coercion",
+      "expectedToChange": true,
+      "status": "PASS"
+    },
+    {
+      "name": "otherwise-inner-branch-reads-cast-sibling",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "outer-otherwise-can-introduce-sibling-dependency",
+      "expectedToChange": true,
+      "status": "PASS"
+    },
+    {
+      "name": "inactive-outer-then-not-invoked",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "identity-no-transform-selected-schema",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "non-idempotent-transforms-once/cast",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "calls": {
+          "a": 1,
+          "b": 1,
+          "c": 1
+        },
+        "out": {
+          "a": true,
+          "b": 2,
+          "c": []
+        }
+      }
+    },
+    {
+      "name": "non-idempotent-transforms-once/validateSync",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "calls": {
+          "a": 1,
+          "b": 1,
+          "c": 1
+        },
+        "out": {
+          "a": true,
+          "b": 2,
+          "c": []
+        }
+      }
+    },
+    {
+      "name": "non-idempotent-transforms-once/validate",
+      "expectedToChange": true,
+      "status": "PASS",
+      "observations": {
+        "calls": {
+          "a": 1,
+          "b": 1,
+          "c": 1
+        },
+        "out": {
+          "a": true,
+          "b": 2,
+          "c": []
+        }
+      }
+    },
+    {
+      "name": "unknown-sibling/true",
+      "expectedToChange": true,
+      "status": "PASS"
+    },
+    {
+      "name": "unknown-sibling/false",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "unknown-sibling/undefined",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "static-cycle-keeps-build-time-error",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "excluded-edge-static-control",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "excluded-edge-keeps-unresolved-sibling-semantics",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "dynamic-cycle/outer=false",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "dynamic-cycle/outer=true",
+      "expectedToChange": true,
+      "status": "PASS"
+    },
+    {
+      "name": "pseudo-cycle/defaultB=true",
+      "expectedToChange": true,
+      "status": "PASS"
+    },
+    {
+      "name": "pseudo-cycle/defaultB=false",
+      "expectedToChange": true,
+      "status": "PASS"
+    },
+    {
+      "name": "explicit-excluded-dynamic-edge-is-not-reenabled",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "condition-builders-count/cast",
+      "expectedToChange": false,
+      "status": "PASS",
+      "observations": {
+        "outer": 1,
+        "inner": 1
+      }
+    },
+    {
+      "name": "condition-builders-count/validateSync",
+      "expectedToChange": false,
+      "status": "PASS",
+      "observations": {
+        "outer": 2,
+        "inner": 2
+      }
+    },
+    {
+      "name": "context-dependency-stays-outside-object-resolution",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "reference-chain-preserves-casted-sibling/dotted=false",
+      "expectedToChange": true,
+      "status": "PASS"
+    },
+    {
+      "name": "reference-chain-preserves-casted-sibling/dotted=true",
+      "expectedToChange": true,
+      "status": "PASS"
+    },
+    {
+      "name": "transitive-sibling-reference-chain",
+      "expectedToChange": true,
+      "status": "PASS"
+    },
+    {
+      "name": "excluded-reference-edge/abcde",
+      "expectedToChange": true,
+      "status": "PASS"
+    },
+    {
+      "name": "excluded-reference-edge/deabc",
+      "expectedToChange": true,
+      "status": "PASS"
+    },
+    {
+      "name": "excluded-reference-edge/cbade",
+      "expectedToChange": true,
+      "status": "PASS"
+    },
+    {
+      "name": "dynamic-cycle-through-reference/active=false",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "dynamic-cycle-through-reference/active=true",
+      "expectedToChange": true,
+      "status": "PASS"
+    },
+    {
+      "name": "excluded-reference-cycle-edge-remains-usable",
+      "expectedToChange": true,
+      "status": "PASS"
+    },
+    {
+      "name": "unknown-sibling-stripUnknown-stays-absent",
+      "expectedToChange": false,
+      "status": "PASS"
+    },
+    {
+      "name": "resolver-removed-after-throw-and-new-call-is-independent",
+      "expectedToChange": true,
+      "status": "PASS"
+    }
+  ]
+}

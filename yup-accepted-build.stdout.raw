@@ -1,0 +1,24 @@
+┌───────────────────────────────┐
+│                               │
+│   [32m[1mDestination: [22m[39m[33mlib/index.js[39m   │
+│   [32m[1mBundle Size: [22m[39m [33m80.18 KB[39m      │
+│   [32m[1mMinified Size: [22m[39m [33m42.34 KB[39m    │
+│   [32m[1mGzipped Size: [22m[39m [33m12.36 KB[39m     │
+│                               │
+└───────────────────────────────┘
+┌───────────────────────────────────┐
+│                                   │
+│   [32m[1mDestination: [22m[39m[33mlib/index.esm.js[39m   │
+│   [32m[1mBundle Size: [22m[39m [33m79.41 KB[39m          │
+│   [32m[1mMinified Size: [22m[39m [33m41.67 KB[39m        │
+│   [32m[1mGzipped Size: [22m[39m [33m12.22 KB[39m         │
+│                                   │
+└───────────────────────────────────┘
+
+DocToccing single file "README.md" for github.com.
+
+==================
+
+"README.md" will be updated
+
+Everything is OK.

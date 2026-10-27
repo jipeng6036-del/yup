@@ -1,0 +1,35 @@
+{
+  "atUtc": "2026-10-27T12:09:12.562207+00:00",
+  "exit": 0,
+  "sourceBeforeAfterEqual": true,
+  "sourceHashes": {
+    "src/object.ts": "9c595d4522b73be6e807312b33bc9aa3be92aa93955c8dba3245949cf2d5aa92",
+    "src/Condition.ts": "a4fa35ed1720306effca9b0fbbf50112dfc8fe95ff3cc76f9e0db11ce49da657",
+    "src/util/siblingResolvers.ts": "06ad2fbfcd3d9c11d6f22e4d8d759ed696a29f84569bd8c19b563c31d1f75155"
+  },
+  "baseline": "failure-catch-initial.json exact7cf baseline build row retained; final build output alreadycandidate, not misattributed as baseline",
+  "harnessNote": "Earlier fixed capture had correct candidate result but asserted two rows; baseline bundle had been rebuilt, so runner correctly omitted oldbaseline. Final comparison uses preserved exactbaseline receipt.",
+  "actual": {
+    "node": "v24.14.0",
+    "observedBuiltModuleSha": "8fcf65780e7b16a8cb06801977206bd2b2fdd56c36062e3a05429ca716a0d853",
+    "sourceHashes": {
+      "src/object.ts": "9c595d4522b73be6e807312b33bc9aa3be92aa93955c8dba3245949cf2d5aa92",
+      "src/Condition.ts": "a4fa35ed1720306effca9b0fbbf50112dfc8fe95ff3cc76f9e0db11ce49da657",
+      "src/util/siblingResolvers.ts": "06ad2fbfcd3d9c11d6f22e4d8d759ed696a29f84569bd8c19b563c31d1f75155"
+    },
+    "rows": [
+      {
+        "mode": "candidate-public-source",
+        "nodes": [
+          "a",
+          "c",
+          "b"
+        ],
+        "calls": 1,
+        "caught": 1,
+        "error": "dependent field failed on first cast"
+      }
+    ]
+  },
+  "result": "PASS: original failure rethrown, transform executes once."
+}
